@@ -29,7 +29,8 @@ A fully open-source pipeline to automatically generate high-quality VLM instruct
 ## Setup (run once)
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/tennissta99660/v
+lm_project.git
 cd vit_pipeline
 bash setup.sh
 ```
