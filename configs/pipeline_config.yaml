@@ -1,0 +1,80 @@
+# =============================================================================
+#  VIT Pipeline — master config
+#  Edit this file to control the entire pipeline.
+# =============================================================================
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
+paths:
+  root:           "."
+  images:         "data/images"
+  annotations:    "data/annotations"
+  instructions:   "data/instructions"
+  filtered:       "data/filtered"
+  final_dataset:  "data/final/vit_dataset.json"
+  llama_factory_data_info: "LLaMA-Factory/data/dataset_info.json"
+  llama_factory_dataset:   "LLaMA-Factory/data/vit_dataset.json"
+
+# ── Data collection ───────────────────────────────────────────────────────────
+data:
+  coco_split:           "train[:15000]"   # HF split syntax
+  open_images_split:    "train[:5000]"
+  num_synthetic_images: 2000              # SDXL-generated images
+  synthetic_prompts_per_category: 40      # categories × prompts = total
+  max_total_images:     22000
+
+# ── Annotation model (Qwen2-VL) ───────────────────────────────────────────────
+annotation:
+  model_id:      "Qwen/Qwen2-VL-7B-Instruct"
+  use_4bit:      true                     # set false if you have ≥24GB VRAM
+  max_new_tokens: 512
+  temperature:   0.1                      # low temp for deterministic descriptions
+  batch_size:    1                        # increase if VRAM allows
+  save_every:    500                      # checkpoint interval
+
+# ── Instruction generation (Llama 3.1 via Ollama) ─────────────────────────────
+instruction:
+  ollama_model:  "llama3.1:8b"
+  ollama_url:    "http://localhost:11434"
+  instructions_per_image: 3              # how many QA pairs to generate per image
+  temperature:   0.75
+  max_tokens:    400
+  types:                                  # instruction categories to sample from
+    - descriptive
+    - counting
+    - reasoning
+    - comparison
+    - referential
+    - yes_no
+    - causal
+    - ocr                                 # only used when text_in_image is non-empty
+
+# ── Quality filtering ─────────────────────────────────────────────────────────
+filter:
+  clip_model:          "ViT-B-32"
+  clip_pretrained:     "openai"
+  min_clip_score:      0.20              # image-response alignment threshold
+  min_response_words:  10
+  max_response_words:  300
+  dedup_threshold:     0.95             # cosine similarity above this = duplicate
+  hallucination_check: true
+
+# ── Fine-tuning (LLaMA-Factory LoRA) ─────────────────────────────────────────
+training:
+  base_model:    "llava-hf/llava-v1.6-mistral-7b-hf"
+  lora_rank:     64
+  lora_alpha:    128
+  lora_target:   "all"
+  num_epochs:    1
+  lr:            2.0e-4
+  batch_size:    2
+  grad_accum:    8                       # effective batch = 16
+  cutoff_len:    2048
+  bf16:          true
+  output_dir:    "outputs/lora_vit"
+
+# ── HuggingFace Hub upload (optional) ────────────────────────────────────────
+hub:
+  push_dataset: false
+  repo_id:      "YOUR_USERNAME/vit-pipeline-dataset"
+  push_model:   false
+  model_repo_id: "YOUR_USERNAME/llava-vit-finetuned"

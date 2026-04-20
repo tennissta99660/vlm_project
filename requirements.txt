@@ -1,0 +1,35 @@
+# ── Core ML ──────────────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.45.0
+accelerate>=0.30.0
+peft>=0.11.0
+bitsandbytes>=0.43.0        # 4-bit / 8-bit quantisation (saves VRAM)
+sentencepiece>=0.1.99
+einops>=0.7.0
+
+# ── VLM / Annotation model ────────────────────────────────────────────────────
+qwen-vl-utils>=0.0.8        # Qwen2-VL helper utilities
+
+# ── Image generation (SDXL) ───────────────────────────────────────────────────
+diffusers>=0.27.0
+invisible-watermark>=0.2.0  # required by SDXL safety checker
+
+# ── CLIP / Quality filtering ──────────────────────────────────────────────────
+open-clip-torch>=2.24.0
+scikit-learn>=1.4.0         # MiniBatchKMeans for dedup
+scipy>=1.12.0
+
+# ── Dataset handling ──────────────────────────────────────────────────────────
+datasets>=2.19.0
+Pillow>=10.0.0
+requests>=2.31.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0
+PyYAML>=6.0.1
+numpy>=1.26.0
+pandas>=2.2.0
+rich>=13.7.0                # pretty terminal output
+spacy>=3.7.0                # NER for hallucination check
+ollama>=0.1.9               # Llama 3.1 local API client
