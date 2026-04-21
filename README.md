@@ -49,6 +49,7 @@ We benchmark three published attention aggregation methods against our combined 
 1. **Compound phrase evaluation is the biggest contributor** — Counting jumps from 0.2248 to 0.3162 because CLIPSeg segments "red apples" far better than "apples" alone.
 2. **A&E's Gaussian smoothing is the strongest single technique** — P3 beats both P1 and P2 across all categories.
 3. **Scene remains the hardest category** for all methods (0.10–0.15 IoU).
+4. **Ours wins overall IoU (+8.1% over A&E) driven by Counting (+40.6%) and Scene (+18.9%), but underperforms on Color Binding and Spatial where A&E's smoothing is more effective.**
 
 ---
 
@@ -176,6 +177,12 @@ benchmark_results/
 ├── requirements.txt
 └── README.md
 ```
+## Limitations
+
+- Evaluated on SD v1.5 only — cross-attention structure differs in SDXL and SD3
+- CLIPSeg IoU is a proxy metric, not human annotation
+- 15 prompts is a small benchmark; results may not generalize
+- attn_iou_correlation = 0.18 suggests attention maps are noisy grounding signals
 
 ## References
 
