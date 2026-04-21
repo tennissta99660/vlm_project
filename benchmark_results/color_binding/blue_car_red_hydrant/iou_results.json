@@ -1,0 +1,93 @@
+{
+  "prompt": "a blue car parked next to a red fire hydrant",
+  "category": "color_binding",
+  "key_tokens": [
+    "blue",
+    "car",
+    "red",
+    "hydrant"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "blue": 0.4841,
+        "car": 0.5692,
+        "red": 0.0
+      },
+      "mean_iou": 0.3511,
+      "num_evaluated": 3,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "blue": 0.2564,
+        "car": 0.5144,
+        "red": 0.0778
+      },
+      "mean_iou": 0.2829,
+      "num_evaluated": 3,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "blue": 0.3165,
+        "car": 0.5888,
+        "red": 0.0589
+      },
+      "mean_iou": 0.3214,
+      "num_evaluated": 3,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "blue": 0.2624,
+        "car": 0.0,
+        "red": 0.265
+      },
+      "mean_iou": 0.1758,
+      "num_evaluated": 3,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "blue": 0.1986,
+        "car": 0.5674,
+        "red": 0.0
+      },
+      "mean_iou": 0.2553,
+      "num_evaluated": 3,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "blue": 0.005,
+        "car": 0.5803,
+        "red": 0.0044
+      },
+      "mean_iou": 0.1966,
+      "num_evaluated": 3,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "blue": 0.368,
+        "car": 0.5959,
+        "red": 0.0168
+      },
+      "mean_iou": 0.3269,
+      "num_evaluated": 3,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "blue": 0.0,
+        "car": 0.0,
+        "red": 0.4748
+      },
+      "mean_iou": 0.1583,
+      "num_evaluated": 3,
+      "seed": 6042
+    }
+  ],
+  "prompt_mean_iou": 0.2585
+}

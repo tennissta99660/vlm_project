@@ -1,0 +1,156 @@
+{
+  "prompt": "a lighthouse on a rocky cliff overlooking the ocean at sunset",
+  "category": "scene",
+  "key_tokens": [
+    "lighthouse",
+    "cliff",
+    "ocean",
+    "sunset"
+  ],
+  "results": [
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3294,
+        "attention_score": 0.2598,
+        "combined": 0.2946,
+        "per_token_attn": {
+          "lighthouse": 0.3097,
+          "cliff": 0.2369,
+          "ocean": 0.2374,
+          "sunset": 0.2552
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3315,
+        "attention_score": 0.2562,
+        "combined": 0.2938,
+        "per_token_attn": {
+          "lighthouse": 0.3017,
+          "cliff": 0.2497,
+          "ocean": 0.2364,
+          "sunset": 0.2368
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3234,
+        "attention_score": 0.2511,
+        "combined": 0.2872,
+        "per_token_attn": {
+          "lighthouse": 0.2938,
+          "cliff": 0.2491,
+          "ocean": 0.2287,
+          "sunset": 0.2328
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3181,
+        "attention_score": 0.2478,
+        "combined": 0.283,
+        "per_token_attn": {
+          "lighthouse": 0.2915,
+          "cliff": 0.2282,
+          "ocean": 0.2256,
+          "sunset": 0.2458
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_00_seed42.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3174,
+        "attention_score": 0.2444,
+        "combined": 0.2809,
+        "per_token_attn": {
+          "lighthouse": 0.2899,
+          "cliff": 0.2301,
+          "ocean": 0.216,
+          "sunset": 0.2417
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3148,
+        "attention_score": 0.247,
+        "combined": 0.2809,
+        "per_token_attn": {
+          "lighthouse": 0.2961,
+          "cliff": 0.2416,
+          "ocean": 0.225,
+          "sunset": 0.2252
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3034,
+        "attention_score": 0.2493,
+        "combined": 0.2764,
+        "per_token_attn": {
+          "lighthouse": 0.299,
+          "cliff": 0.2417,
+          "ocean": 0.2226,
+          "sunset": 0.2338
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/scene\\lighthouse_cliff_ocean\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3028,
+        "attention_score": 0.2349,
+        "combined": 0.2689,
+        "per_token_attn": {
+          "lighthouse": 0.285,
+          "cliff": 0.2416,
+          "ocean": 0.2165,
+          "sunset": 0.1964
+        }
+      }
+    }
+  ]
+}

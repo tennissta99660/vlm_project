@@ -1,0 +1,84 @@
+{
+  "prompt": "a bird flying above a church steeple",
+  "category": "spatial",
+  "key_tokens": [
+    "bird",
+    "church",
+    "steeple"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "bird": 0.093,
+        "church": 0.3625
+      },
+      "mean_iou": 0.2278,
+      "num_evaluated": 2,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "bird": 0.0893,
+        "church": 0.5242
+      },
+      "mean_iou": 0.3068,
+      "num_evaluated": 2,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "bird": 0.1151,
+        "church": 0.3933
+      },
+      "mean_iou": 0.2542,
+      "num_evaluated": 2,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "bird": 0.135,
+        "church": 0.387
+      },
+      "mean_iou": 0.261,
+      "num_evaluated": 2,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "bird": 0.0296,
+        "church": 0.1849
+      },
+      "mean_iou": 0.1073,
+      "num_evaluated": 2,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "bird": 0.3287,
+        "church": 0.0
+      },
+      "mean_iou": 0.1643,
+      "num_evaluated": 2,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "bird": 0.0,
+        "church": 0.593
+      },
+      "mean_iou": 0.2965,
+      "num_evaluated": 2,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "bird": 0.057,
+        "church": 0.0
+      },
+      "mean_iou": 0.0285,
+      "num_evaluated": 2,
+      "seed": 42
+    }
+  ],
+  "prompt_mean_iou": 0.2058
+}

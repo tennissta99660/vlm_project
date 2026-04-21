@@ -1,0 +1,147 @@
+{
+  "prompt": "a guitar leaning against an amplifier next to a microphone",
+  "category": "multi_object",
+  "key_tokens": [
+    "guitar",
+    "amplifier",
+    "microphone"
+  ],
+  "results": [
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_00_seed42.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3406,
+        "attention_score": 0.2614,
+        "combined": 0.301,
+        "per_token_attn": {
+          "guitar": 0.2684,
+          "amplifier": 0.2719,
+          "microphone": 0.2439
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3321,
+        "attention_score": 0.2593,
+        "combined": 0.2957,
+        "per_token_attn": {
+          "guitar": 0.2701,
+          "amplifier": 0.2518,
+          "microphone": 0.2559
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3192,
+        "attention_score": 0.262,
+        "combined": 0.2906,
+        "per_token_attn": {
+          "guitar": 0.2722,
+          "amplifier": 0.27,
+          "microphone": 0.2438
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3196,
+        "attention_score": 0.2582,
+        "combined": 0.2889,
+        "per_token_attn": {
+          "guitar": 0.2859,
+          "amplifier": 0.2553,
+          "microphone": 0.2335
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3164,
+        "attention_score": 0.2585,
+        "combined": 0.2874,
+        "per_token_attn": {
+          "guitar": 0.2569,
+          "amplifier": 0.2843,
+          "microphone": 0.2342
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3127,
+        "attention_score": 0.2555,
+        "combined": 0.2841,
+        "per_token_attn": {
+          "guitar": 0.2601,
+          "amplifier": 0.2391,
+          "microphone": 0.2672
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3082,
+        "attention_score": 0.2583,
+        "combined": 0.2833,
+        "per_token_attn": {
+          "guitar": 0.2409,
+          "amplifier": 0.2753,
+          "microphone": 0.2587
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/multi_object\\guitar_amplifier_mic\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2889,
+        "attention_score": 0.2547,
+        "combined": 0.2718,
+        "per_token_attn": {
+          "guitar": 0.2404,
+          "amplifier": 0.2791,
+          "microphone": 0.2447
+        }
+      }
+    }
+  ]
+}

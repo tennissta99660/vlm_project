@@ -1,0 +1,156 @@
+{
+  "prompt": "a cozy cabin in a snowy forest with smoke rising from the chimney",
+  "category": "scene",
+  "key_tokens": [
+    "cabin",
+    "forest",
+    "smoke",
+    "chimney"
+  ],
+  "results": [
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3469,
+        "attention_score": 0.2506,
+        "combined": 0.2987,
+        "per_token_attn": {
+          "cabin": 0.2705,
+          "forest": 0.2327,
+          "smoke": 0.2544,
+          "chimney": 0.2449
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_00_seed42.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/scene\\cabin_snowy_forest\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3381,
+        "attention_score": 0.2435,
+        "combined": 0.2908,
+        "per_token_attn": {
+          "cabin": 0.2759,
+          "forest": 0.2257,
+          "smoke": 0.229,
+          "chimney": 0.2434
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3336,
+        "attention_score": 0.2437,
+        "combined": 0.2886,
+        "per_token_attn": {
+          "cabin": 0.2799,
+          "forest": 0.2424,
+          "smoke": 0.216,
+          "chimney": 0.2365
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3312,
+        "attention_score": 0.239,
+        "combined": 0.2851,
+        "per_token_attn": {
+          "cabin": 0.2768,
+          "forest": 0.232,
+          "smoke": 0.2165,
+          "chimney": 0.2308
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3189,
+        "attention_score": 0.241,
+        "combined": 0.2799,
+        "per_token_attn": {
+          "cabin": 0.2863,
+          "forest": 0.2461,
+          "smoke": 0.1898,
+          "chimney": 0.242
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.32,
+        "attention_score": 0.2366,
+        "combined": 0.2783,
+        "per_token_attn": {
+          "cabin": 0.2766,
+          "forest": 0.2381,
+          "smoke": 0.2007,
+          "chimney": 0.231
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3166,
+        "attention_score": 0.2399,
+        "combined": 0.2782,
+        "per_token_attn": {
+          "cabin": 0.2675,
+          "forest": 0.2244,
+          "smoke": 0.2252,
+          "chimney": 0.2427
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/scene\\cabin_snowy_forest\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/scene\\cabin_snowy_forest\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/scene\\cabin_snowy_forest\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.301,
+        "attention_score": 0.2284,
+        "combined": 0.2647,
+        "per_token_attn": {
+          "cabin": 0.2776,
+          "forest": 0.2249,
+          "smoke": 0.1875,
+          "chimney": 0.2235
+        }
+      }
+    }
+  ]
+}

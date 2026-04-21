@@ -1,0 +1,67 @@
+{
+  "num_prompts": 15,
+  "num_images": 120,
+  "categories": {
+    "color_binding": {
+      "label": "Color Binding",
+      "num_prompts": 3,
+      "num_images": 24,
+      "mean_clip": 0.326,
+      "std_clip": 0.0197,
+      "mean_attn": 0.2373,
+      "std_attn": 0.0194,
+      "mean_combined": 0.2816,
+      "mean_iou": 0.2844,
+      "std_iou": 0.0636
+    },
+    "counting": {
+      "label": "Counting",
+      "num_prompts": 3,
+      "num_images": 24,
+      "mean_clip": 0.3242,
+      "std_clip": 0.0179,
+      "mean_attn": 0.2462,
+      "std_attn": 0.0094,
+      "mean_combined": 0.2852,
+      "mean_iou": 0.2091,
+      "std_iou": 0.0694
+    },
+    "multi_object": {
+      "label": "Multi-Object",
+      "num_prompts": 3,
+      "num_images": 24,
+      "mean_clip": 0.3152,
+      "std_clip": 0.0258,
+      "mean_attn": 0.2464,
+      "std_attn": 0.0143,
+      "mean_combined": 0.2808,
+      "mean_iou": 0.1732,
+      "std_iou": 0.0366
+    },
+    "scene": {
+      "label": "Scene",
+      "num_prompts": 3,
+      "num_images": 24,
+      "mean_clip": 0.3214,
+      "std_clip": 0.0121,
+      "mean_attn": 0.2359,
+      "std_attn": 0.0145,
+      "mean_combined": 0.2786,
+      "mean_iou": 0.1218,
+      "std_iou": 0.0324
+    },
+    "spatial": {
+      "label": "Spatial",
+      "num_prompts": 3,
+      "num_images": 24,
+      "mean_clip": 0.318,
+      "std_clip": 0.0238,
+      "mean_attn": 0.2513,
+      "std_attn": 0.0123,
+      "mean_combined": 0.2847,
+      "mean_iou": 0.2559,
+      "std_iou": 0.0921
+    }
+  },
+  "attn_iou_correlation": 0.1783
+}

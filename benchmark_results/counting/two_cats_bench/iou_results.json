@@ -1,0 +1,92 @@
+{
+  "prompt": "two cats sitting side by side on a garden bench",
+  "category": "counting",
+  "key_tokens": [
+    "cats",
+    "bench",
+    "garden"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "cats": 0.7053,
+        "bench": 0.0587,
+        "garden": 0.0105
+      },
+      "mean_iou": 0.2582,
+      "num_evaluated": 3,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "cats": 0.7104,
+        "bench": 0.001,
+        "garden": 0.0
+      },
+      "mean_iou": 0.2371,
+      "num_evaluated": 3,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "cats": 0.6477,
+        "bench": 0.0407,
+        "garden": 0.0295
+      },
+      "mean_iou": 0.2393,
+      "num_evaluated": 3,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "cats": 0.4577,
+        "bench": 0.0043,
+        "garden": 0.0015
+      },
+      "mean_iou": 0.1545,
+      "num_evaluated": 3,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "cats": 0.47,
+        "bench": 0.0016,
+        "garden": 0.0
+      },
+      "mean_iou": 0.1572,
+      "num_evaluated": 3,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "cats": 0.425,
+        "bench": 0.0,
+        "garden": 0.0056
+      },
+      "mean_iou": 0.1435,
+      "num_evaluated": 3,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "cats": 0.3661,
+        "bench": 0.0,
+        "garden": 0.0
+      },
+      "mean_iou": 0.122,
+      "num_evaluated": 3,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "cats": 0.7536,
+        "bench": 0.0287,
+        "garden": 0.0
+      },
+      "mean_iou": 0.2608,
+      "num_evaluated": 3,
+      "seed": 4042
+    }
+  ],
+  "prompt_mean_iou": 0.1966
+}

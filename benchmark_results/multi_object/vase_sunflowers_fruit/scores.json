@@ -1,0 +1,157 @@
+{
+  "prompt": "a vase of sunflowers beside a bowl of fruit on a windowsill",
+  "category": "multi_object",
+  "key_tokens": [
+    "vase",
+    "sunflowers",
+    "bowl",
+    "fruit",
+    "windowsill"
+  ],
+  "results": [
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3564,
+        "attention_score": 0.264,
+        "combined": 0.3102,
+        "per_token_attn": {
+          "vase": 0.2628,
+          "sunflowers": 0.3198,
+          "bowl": 0.2269,
+          "fruit": 0.2464
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3471,
+        "attention_score": 0.2573,
+        "combined": 0.3022,
+        "per_token_attn": {
+          "vase": 0.2672,
+          "sunflowers": 0.2958,
+          "bowl": 0.2251,
+          "fruit": 0.2412
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3466,
+        "attention_score": 0.2573,
+        "combined": 0.3019,
+        "per_token_attn": {
+          "vase": 0.2612,
+          "sunflowers": 0.3136,
+          "bowl": 0.227,
+          "fruit": 0.2273
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_00_seed42.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3346,
+        "attention_score": 0.2567,
+        "combined": 0.2956,
+        "per_token_attn": {
+          "vase": 0.2659,
+          "sunflowers": 0.3134,
+          "bowl": 0.2188,
+          "fruit": 0.2289
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3391,
+        "attention_score": 0.2435,
+        "combined": 0.2913,
+        "per_token_attn": {
+          "vase": 0.2598,
+          "sunflowers": 0.3002,
+          "bowl": 0.2063,
+          "fruit": 0.2075
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3355,
+        "attention_score": 0.2451,
+        "combined": 0.2903,
+        "per_token_attn": {
+          "vase": 0.262,
+          "sunflowers": 0.3086,
+          "bowl": 0.2058,
+          "fruit": 0.2037
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3273,
+        "attention_score": 0.2513,
+        "combined": 0.2893,
+        "per_token_attn": {
+          "vase": 0.2699,
+          "sunflowers": 0.3025,
+          "bowl": 0.2234,
+          "fruit": 0.2094
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/multi_object\\vase_sunflowers_fruit\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3319,
+        "attention_score": 0.2458,
+        "combined": 0.2888,
+        "per_token_attn": {
+          "vase": 0.2414,
+          "sunflowers": 0.2936,
+          "bowl": 0.2099,
+          "fruit": 0.2383
+        }
+      }
+    }
+  ]
+}

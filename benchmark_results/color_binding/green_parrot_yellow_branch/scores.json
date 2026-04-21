@@ -1,0 +1,156 @@
+{
+  "prompt": "a green parrot sitting on a yellow branch",
+  "category": "color_binding",
+  "key_tokens": [
+    "green",
+    "parrot",
+    "yellow",
+    "branch"
+  ],
+  "results": [
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3628,
+        "attention_score": 0.2698,
+        "combined": 0.3163,
+        "per_token_attn": {
+          "green": 0.2684,
+          "parrot": 0.3055,
+          "yellow": 0.2524,
+          "branch": 0.253
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3451,
+        "attention_score": 0.2581,
+        "combined": 0.3016,
+        "per_token_attn": {
+          "green": 0.2596,
+          "parrot": 0.2988,
+          "yellow": 0.24,
+          "branch": 0.2339
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3347,
+        "attention_score": 0.262,
+        "combined": 0.2983,
+        "per_token_attn": {
+          "green": 0.2666,
+          "parrot": 0.304,
+          "yellow": 0.2229,
+          "branch": 0.2544
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3364,
+        "attention_score": 0.2477,
+        "combined": 0.292,
+        "per_token_attn": {
+          "green": 0.2432,
+          "parrot": 0.2929,
+          "yellow": 0.2263,
+          "branch": 0.2282
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_00_seed42.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3294,
+        "attention_score": 0.2538,
+        "combined": 0.2916,
+        "per_token_attn": {
+          "green": 0.2569,
+          "parrot": 0.3004,
+          "yellow": 0.2273,
+          "branch": 0.2305
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3344,
+        "attention_score": 0.2469,
+        "combined": 0.2906,
+        "per_token_attn": {
+          "green": 0.241,
+          "parrot": 0.2918,
+          "yellow": 0.2194,
+          "branch": 0.2353
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3319,
+        "attention_score": 0.2477,
+        "combined": 0.2898,
+        "per_token_attn": {
+          "green": 0.2351,
+          "parrot": 0.2859,
+          "yellow": 0.2435,
+          "branch": 0.2262
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/color_binding\\green_parrot_yellow_branch\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3235,
+        "attention_score": 0.2514,
+        "combined": 0.2875,
+        "per_token_attn": {
+          "green": 0.2551,
+          "parrot": 0.2927,
+          "yellow": 0.2187,
+          "branch": 0.239
+        }
+      }
+    }
+  ]
+}

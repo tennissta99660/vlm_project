@@ -1,0 +1,139 @@
+{
+  "prompt": "a bird flying above a church steeple",
+  "category": "spatial",
+  "key_tokens": [
+    "bird",
+    "church",
+    "steeple"
+  ],
+  "results": [
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3629,
+        "attention_score": 0.2691,
+        "combined": 0.316,
+        "per_token_attn": {
+          "bird": 0.2555,
+          "church": 0.2827
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3562,
+        "attention_score": 0.2622,
+        "combined": 0.3092,
+        "per_token_attn": {
+          "bird": 0.2568,
+          "church": 0.2675
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3519,
+        "attention_score": 0.2621,
+        "combined": 0.307,
+        "per_token_attn": {
+          "bird": 0.2512,
+          "church": 0.2729
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3389,
+        "attention_score": 0.2412,
+        "combined": 0.2901,
+        "per_token_attn": {
+          "bird": 0.2358,
+          "church": 0.2466
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3174,
+        "attention_score": 0.235,
+        "combined": 0.2762,
+        "per_token_attn": {
+          "bird": 0.2286,
+          "church": 0.2415
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/spatial\\bird_above_church\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.2858,
+        "attention_score": 0.2327,
+        "combined": 0.2593,
+        "per_token_attn": {
+          "bird": 0.2607,
+          "church": 0.2047
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2798,
+        "attention_score": 0.2297,
+        "combined": 0.2548,
+        "per_token_attn": {
+          "bird": 0.1955,
+          "church": 0.264
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/spatial\\bird_above_church\\image_00_seed42.png",
+      "maps_path": "benchmark_results/spatial\\bird_above_church\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/spatial\\bird_above_church\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.2703,
+        "attention_score": 0.2211,
+        "combined": 0.2457,
+        "per_token_attn": {
+          "bird": 0.2542,
+          "church": 0.188
+        }
+      }
+    }
+  ]
+}

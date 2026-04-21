@@ -1,0 +1,92 @@
+{
+  "prompt": "a guitar leaning against an amplifier next to a microphone",
+  "category": "multi_object",
+  "key_tokens": [
+    "guitar",
+    "amplifier",
+    "microphone"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "guitar": 0.0096,
+        "amplifier": 0.4307,
+        "microphone": 0.0
+      },
+      "mean_iou": 0.1468,
+      "num_evaluated": 3,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "guitar": 0.1935,
+        "amplifier": 0.3007,
+        "microphone": 0.0357
+      },
+      "mean_iou": 0.1766,
+      "num_evaluated": 3,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "guitar": 0.0811,
+        "amplifier": 0.4601,
+        "microphone": 0.076
+      },
+      "mean_iou": 0.2057,
+      "num_evaluated": 3,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "guitar": 0.2159,
+        "amplifier": 0.4564,
+        "microphone": 0.0
+      },
+      "mean_iou": 0.2241,
+      "num_evaluated": 3,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "guitar": 0.0,
+        "amplifier": 0.6318,
+        "microphone": 0.0
+      },
+      "mean_iou": 0.2106,
+      "num_evaluated": 3,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "guitar": 0.1381,
+        "amplifier": 0.0549,
+        "microphone": 0.4271
+      },
+      "mean_iou": 0.2067,
+      "num_evaluated": 3,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "guitar": 0.0,
+        "amplifier": 0.4713,
+        "microphone": 0.0556
+      },
+      "mean_iou": 0.1756,
+      "num_evaluated": 3,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "guitar": 0.02,
+        "amplifier": 0.549,
+        "microphone": 0.0
+      },
+      "mean_iou": 0.1897,
+      "num_evaluated": 3,
+      "seed": 7042
+    }
+  ],
+  "prompt_mean_iou": 0.192
+}

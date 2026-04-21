@@ -1,0 +1,156 @@
+{
+  "prompt": "a white cat sleeping on a black sofa",
+  "category": "color_binding",
+  "key_tokens": [
+    "white",
+    "cat",
+    "black",
+    "sofa"
+  ],
+  "results": [
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3412,
+        "attention_score": 0.2484,
+        "combined": 0.2948,
+        "per_token_attn": {
+          "white": 0.2416,
+          "cat": 0.2646,
+          "black": 0.2024,
+          "sofa": 0.2849
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_00_seed42.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/color_binding\\white_cat_black_sofa\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3331,
+        "attention_score": 0.2457,
+        "combined": 0.2894,
+        "per_token_attn": {
+          "white": 0.2412,
+          "cat": 0.2611,
+          "black": 0.2021,
+          "sofa": 0.2784
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/color_binding\\white_cat_black_sofa\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3352,
+        "attention_score": 0.2423,
+        "combined": 0.2887,
+        "per_token_attn": {
+          "white": 0.2319,
+          "cat": 0.2614,
+          "black": 0.2069,
+          "sofa": 0.2692
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3338,
+        "attention_score": 0.2424,
+        "combined": 0.2881,
+        "per_token_attn": {
+          "white": 0.2431,
+          "cat": 0.2582,
+          "black": 0.2043,
+          "sofa": 0.2641
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3303,
+        "attention_score": 0.2437,
+        "combined": 0.287,
+        "per_token_attn": {
+          "white": 0.2351,
+          "cat": 0.2606,
+          "black": 0.2082,
+          "sofa": 0.271
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3227,
+        "attention_score": 0.2409,
+        "combined": 0.2818,
+        "per_token_attn": {
+          "white": 0.237,
+          "cat": 0.2657,
+          "black": 0.2007,
+          "sofa": 0.2602
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3272,
+        "attention_score": 0.2338,
+        "combined": 0.2805,
+        "per_token_attn": {
+          "white": 0.2264,
+          "cat": 0.249,
+          "black": 0.1875,
+          "sofa": 0.2722
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/color_binding\\white_cat_black_sofa\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/color_binding\\white_cat_black_sofa\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2987,
+        "attention_score": 0.2493,
+        "combined": 0.274,
+        "per_token_attn": {
+          "white": 0.252,
+          "cat": 0.2629,
+          "black": 0.2027,
+          "sofa": 0.2795
+        }
+      }
+    }
+  ]
+}

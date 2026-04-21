@@ -1,0 +1,92 @@
+{
+  "prompt": "a dog standing under a large umbrella in the rain",
+  "category": "spatial",
+  "key_tokens": [
+    "dog",
+    "umbrella",
+    "rain"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "dog": 0.1714,
+        "umbrella": 0.2061,
+        "rain": 0.0813
+      },
+      "mean_iou": 0.1529,
+      "num_evaluated": 3,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "dog": 0.6093,
+        "umbrella": 0.043,
+        "rain": 0.1192
+      },
+      "mean_iou": 0.2572,
+      "num_evaluated": 3,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "dog": 0.2933,
+        "umbrella": 0.0,
+        "rain": 0.1978
+      },
+      "mean_iou": 0.1637,
+      "num_evaluated": 3,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "dog": 0.3251,
+        "umbrella": 0.3139,
+        "rain": 0.3099
+      },
+      "mean_iou": 0.3163,
+      "num_evaluated": 3,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "dog": 0.3867,
+        "umbrella": 0.258,
+        "rain": 0.0982
+      },
+      "mean_iou": 0.2476,
+      "num_evaluated": 3,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "dog": 0.617,
+        "umbrella": 0.0954,
+        "rain": 0.0647
+      },
+      "mean_iou": 0.259,
+      "num_evaluated": 3,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "dog": 0.1482,
+        "umbrella": 0.0843,
+        "rain": 0.1822
+      },
+      "mean_iou": 0.1382,
+      "num_evaluated": 3,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "dog": 0.3191,
+        "umbrella": 0.1172,
+        "rain": 0.1129
+      },
+      "mean_iou": 0.1831,
+      "num_evaluated": 3,
+      "seed": 1042
+    }
+  ],
+  "prompt_mean_iou": 0.2147
+}

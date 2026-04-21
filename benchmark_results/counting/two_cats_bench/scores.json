@@ -1,0 +1,147 @@
+{
+  "prompt": "two cats sitting side by side on a garden bench",
+  "category": "counting",
+  "key_tokens": [
+    "cats",
+    "bench",
+    "garden"
+  ],
+  "results": [
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_00_seed42.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/counting\\two_cats_bench\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3556,
+        "attention_score": 0.2636,
+        "combined": 0.3096,
+        "per_token_attn": {
+          "cats": 0.2733,
+          "bench": 0.2887,
+          "garden": 0.2288
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3582,
+        "attention_score": 0.2608,
+        "combined": 0.3095,
+        "per_token_attn": {
+          "cats": 0.2819,
+          "bench": 0.2756,
+          "garden": 0.2251
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3352,
+        "attention_score": 0.2664,
+        "combined": 0.3008,
+        "per_token_attn": {
+          "cats": 0.2751,
+          "bench": 0.281,
+          "garden": 0.2431
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/counting\\two_cats_bench\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3546,
+        "attention_score": 0.2459,
+        "combined": 0.3002,
+        "per_token_attn": {
+          "cats": 0.2738,
+          "bench": 0.237,
+          "garden": 0.227
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3243,
+        "attention_score": 0.2522,
+        "combined": 0.2883,
+        "per_token_attn": {
+          "cats": 0.2772,
+          "bench": 0.2424,
+          "garden": 0.2369
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3247,
+        "attention_score": 0.2491,
+        "combined": 0.2869,
+        "per_token_attn": {
+          "cats": 0.2762,
+          "bench": 0.248,
+          "garden": 0.2231
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.327,
+        "attention_score": 0.2312,
+        "combined": 0.2791,
+        "per_token_attn": {
+          "cats": 0.2741,
+          "bench": 0.2175,
+          "garden": 0.2019
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/counting\\two_cats_bench\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/counting\\two_cats_bench\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.311,
+        "attention_score": 0.2467,
+        "combined": 0.2789,
+        "per_token_attn": {
+          "cats": 0.2729,
+          "bench": 0.2516,
+          "garden": 0.2157
+        }
+      }
+    }
+  ]
+}

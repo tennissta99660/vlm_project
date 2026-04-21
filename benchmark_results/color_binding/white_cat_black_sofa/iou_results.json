@@ -1,0 +1,101 @@
+{
+  "prompt": "a white cat sleeping on a black sofa",
+  "category": "color_binding",
+  "key_tokens": [
+    "white",
+    "cat",
+    "black",
+    "sofa"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "white": 0.3989,
+        "cat": 0.5828,
+        "black": 0.0,
+        "sofa": 0.0659
+      },
+      "mean_iou": 0.2619,
+      "num_evaluated": 4,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "white": 0.6432,
+        "cat": 0.7127,
+        "black": 0.0001,
+        "sofa": 0.0497
+      },
+      "mean_iou": 0.3514,
+      "num_evaluated": 4,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "white": 0.3274,
+        "cat": 0.5639,
+        "black": 0.1978,
+        "sofa": 0.0074
+      },
+      "mean_iou": 0.2741,
+      "num_evaluated": 4,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "white": 0.4695,
+        "cat": 0.5752,
+        "black": 0.0,
+        "sofa": 0.0053
+      },
+      "mean_iou": 0.2625,
+      "num_evaluated": 4,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "white": 0.5512,
+        "cat": 0.6107,
+        "black": 0.0425,
+        "sofa": 0.2503
+      },
+      "mean_iou": 0.3637,
+      "num_evaluated": 4,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "white": 0.1014,
+        "cat": 0.4562,
+        "black": 0.0,
+        "sofa": 0.0142
+      },
+      "mean_iou": 0.1429,
+      "num_evaluated": 4,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "white": 0.5075,
+        "cat": 0.7411,
+        "black": 0.0139,
+        "sofa": 0.1852
+      },
+      "mean_iou": 0.3619,
+      "num_evaluated": 4,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "white": 0.6762,
+        "cat": 0.6794,
+        "black": 0.0,
+        "sofa": 0.0094
+      },
+      "mean_iou": 0.3412,
+      "num_evaluated": 4,
+      "seed": 6042
+    }
+  ],
+  "prompt_mean_iou": 0.295
+}

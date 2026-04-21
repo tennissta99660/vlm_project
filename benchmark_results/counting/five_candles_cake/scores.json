@@ -1,0 +1,147 @@
+{
+  "prompt": "five candles burning on a birthday cake with frosting",
+  "category": "counting",
+  "key_tokens": [
+    "candles",
+    "cake",
+    "frosting"
+  ],
+  "results": [
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3252,
+        "attention_score": 0.2548,
+        "combined": 0.29,
+        "per_token_attn": {
+          "candles": 0.2511,
+          "cake": 0.2677,
+          "frosting": 0.2455
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/counting\\five_candles_cake\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3217,
+        "attention_score": 0.2427,
+        "combined": 0.2822,
+        "per_token_attn": {
+          "candles": 0.2492,
+          "cake": 0.2486,
+          "frosting": 0.2302
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3295,
+        "attention_score": 0.2346,
+        "combined": 0.282,
+        "per_token_attn": {
+          "candles": 0.2503,
+          "cake": 0.2325,
+          "frosting": 0.221
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3172,
+        "attention_score": 0.2431,
+        "combined": 0.2801,
+        "per_token_attn": {
+          "candles": 0.2427,
+          "cake": 0.2544,
+          "frosting": 0.2321
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3142,
+        "attention_score": 0.2424,
+        "combined": 0.2783,
+        "per_token_attn": {
+          "candles": 0.2429,
+          "cake": 0.2556,
+          "frosting": 0.2287
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3159,
+        "attention_score": 0.2398,
+        "combined": 0.2779,
+        "per_token_attn": {
+          "candles": 0.2457,
+          "cake": 0.2485,
+          "frosting": 0.2253
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3066,
+        "attention_score": 0.2467,
+        "combined": 0.2767,
+        "per_token_attn": {
+          "candles": 0.2884,
+          "cake": 0.2252,
+          "frosting": 0.2267
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/counting\\five_candles_cake\\image_00_seed42.png",
+      "maps_path": "benchmark_results/counting\\five_candles_cake\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/counting\\five_candles_cake\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3083,
+        "attention_score": 0.2329,
+        "combined": 0.2706,
+        "per_token_attn": {
+          "candles": 0.2341,
+          "cake": 0.2468,
+          "frosting": 0.2179
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "prompt": "a street market with colorful fruit stands and people walking",
+  "category": "scene",
+  "key_tokens": [
+    "market",
+    "fruit",
+    "stands",
+    "people"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "market": 0.1404,
+        "fruit": 0.0182,
+        "stands": 0.0,
+        "people": 0.0827
+      },
+      "mean_iou": 0.0603,
+      "num_evaluated": 4,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "market": 0.198,
+        "fruit": 0.009,
+        "stands": 0.0,
+        "people": 0.2856
+      },
+      "mean_iou": 0.1232,
+      "num_evaluated": 4,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "market": 0.2677,
+        "fruit": 0.0784,
+        "stands": 0.0,
+        "people": 0.211
+      },
+      "mean_iou": 0.1393,
+      "num_evaluated": 4,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "market": 0.1535,
+        "fruit": 0.0682,
+        "stands": 0.0,
+        "people": 0.4227
+      },
+      "mean_iou": 0.1611,
+      "num_evaluated": 4,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "market": 0.1383,
+        "fruit": 0.0254,
+        "stands": 0.0,
+        "people": 0.1377
+      },
+      "mean_iou": 0.0754,
+      "num_evaluated": 4,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "market": 0.1893,
+        "fruit": 0.0519,
+        "stands": 0.0,
+        "people": 0.1897
+      },
+      "mean_iou": 0.1077,
+      "num_evaluated": 4,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "market": 0.2803,
+        "fruit": 0.0225,
+        "stands": 0.0,
+        "people": 0.2515
+      },
+      "mean_iou": 0.1386,
+      "num_evaluated": 4,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "market": 0.2723,
+        "fruit": 0.1391,
+        "stands": 0.0,
+        "people": 0.054
+      },
+      "mean_iou": 0.1163,
+      "num_evaluated": 4,
+      "seed": 2042
+    }
+  ],
+  "prompt_mean_iou": 0.1152
+}

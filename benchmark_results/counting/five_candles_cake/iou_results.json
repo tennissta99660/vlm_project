@@ -1,0 +1,92 @@
+{
+  "prompt": "five candles burning on a birthday cake with frosting",
+  "category": "counting",
+  "key_tokens": [
+    "candles",
+    "cake",
+    "frosting"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "candles": 0.0468,
+        "cake": 0.4132,
+        "frosting": 0.2374
+      },
+      "mean_iou": 0.2325,
+      "num_evaluated": 3,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "candles": 0.081,
+        "cake": 0.3307,
+        "frosting": 0.32
+      },
+      "mean_iou": 0.2439,
+      "num_evaluated": 3,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "candles": 0.4308,
+        "cake": 0.1396,
+        "frosting": 0.0689
+      },
+      "mean_iou": 0.2131,
+      "num_evaluated": 3,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "candles": 0.0904,
+        "cake": 0.3469,
+        "frosting": 0.3761
+      },
+      "mean_iou": 0.2711,
+      "num_evaluated": 3,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "candles": 0.0,
+        "cake": 0.303,
+        "frosting": 0.1438
+      },
+      "mean_iou": 0.1489,
+      "num_evaluated": 3,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "candles": 0.0079,
+        "cake": 0.3168,
+        "frosting": 0.3729
+      },
+      "mean_iou": 0.2325,
+      "num_evaluated": 3,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "candles": 0.3843,
+        "cake": 0.0,
+        "frosting": 0.0
+      },
+      "mean_iou": 0.1281,
+      "num_evaluated": 3,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "candles": 0.1055,
+        "cake": 0.5152,
+        "frosting": 0.5741
+      },
+      "mean_iou": 0.3983,
+      "num_evaluated": 3,
+      "seed": 42
+    }
+  ],
+  "prompt_mean_iou": 0.2336
+}

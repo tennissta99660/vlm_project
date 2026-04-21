@@ -1,0 +1,4942 @@
+{
+  "P1_daam": {
+    "config_name": "P1: DAAM (Tang et al.)",
+    "prompts": [
+      {
+        "category": "color_binding",
+        "slug": "blue_car_red_hydrant",
+        "prompt_mean_iou": 0.2558,
+        "per_image": [
+          {
+            "per_token": {
+              "blue": 0.3727,
+              "car": 0.4818,
+              "red": 0.0006
+            },
+            "mean_iou": 0.285,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "blue": 0.227,
+              "car": 0.4786,
+              "red": 0.0634
+            },
+            "mean_iou": 0.2563,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "blue": 0.2337,
+              "car": 0.5599,
+              "red": 0.1816
+            },
+            "mean_iou": 0.3251,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "blue": 0.3084,
+              "car": 0.0,
+              "red": 0.3416
+            },
+            "mean_iou": 0.2167,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "blue": 0.1585,
+              "car": 0.5719,
+              "red": 0.0
+            },
+            "mean_iou": 0.2435,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "blue": 0.005,
+              "car": 0.4989,
+              "red": 0.0044
+            },
+            "mean_iou": 0.1694,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "blue": 0.3162,
+              "car": 0.504,
+              "red": 0.0936
+            },
+            "mean_iou": 0.3046,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "blue": 0.0,
+              "car": 0.0,
+              "red": 0.7371
+            },
+            "mean_iou": 0.2457,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "green_parrot_yellow_branch",
+        "prompt_mean_iou": 0.2903,
+        "per_image": [
+          {
+            "per_token": {
+              "green": 0.3044,
+              "parrot": 0.5974,
+              "yellow": 0.557,
+              "branch": 0.0642
+            },
+            "mean_iou": 0.3808,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "green": 0.0068,
+              "parrot": 0.5253,
+              "yellow": 0.4046,
+              "branch": 0.1313
+            },
+            "mean_iou": 0.267,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "green": 0.1191,
+              "parrot": 0.5891,
+              "yellow": 0.4187,
+              "branch": 0.0013
+            },
+            "mean_iou": 0.2821,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "green": 0.0,
+              "parrot": 0.568,
+              "yellow": 0.3435,
+              "branch": 0.1158
+            },
+            "mean_iou": 0.2568,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "green": 0.1814,
+              "parrot": 0.5655,
+              "yellow": 0.5365,
+              "branch": 0.0
+            },
+            "mean_iou": 0.3208,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "green": 0.0,
+              "parrot": 0.4023,
+              "yellow": 0.346,
+              "branch": 0.1478
+            },
+            "mean_iou": 0.224,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "green": 0.0185,
+              "parrot": 0.5835,
+              "yellow": 0.5281,
+              "branch": 0.1308
+            },
+            "mean_iou": 0.3152,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "green": 0.153,
+              "parrot": 0.3634,
+              "yellow": 0.3717,
+              "branch": 0.2138
+            },
+            "mean_iou": 0.2755,
+            "seed": 3042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "white_cat_black_sofa",
+        "prompt_mean_iou": 0.2017,
+        "per_image": [
+          {
+            "per_token": {
+              "white": 0.3078,
+              "cat": 0.4676,
+              "black": 0.0,
+              "sofa": 0.0953
+            },
+            "mean_iou": 0.2177,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "white": 0.5809,
+              "cat": 0.6436,
+              "black": 0.0,
+              "sofa": 0.0811
+            },
+            "mean_iou": 0.3264,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "white": 0.2651,
+              "cat": 0.5296,
+              "black": 0.1531,
+              "sofa": 0.0217
+            },
+            "mean_iou": 0.2424,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "white": 0.2232,
+              "cat": 0.3687,
+              "black": 0.0,
+              "sofa": 0.1028
+            },
+            "mean_iou": 0.1737,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "white": 0.112,
+              "cat": 0.1449,
+              "black": 0.046,
+              "sofa": 0.0738
+            },
+            "mean_iou": 0.0942,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "white": 0.0974,
+              "cat": 0.4139,
+              "black": 0.0,
+              "sofa": 0.0585
+            },
+            "mean_iou": 0.1424,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "white": 0.0912,
+              "cat": 0.2307,
+              "black": 0.1524,
+              "sofa": 0.2012
+            },
+            "mean_iou": 0.1689,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "white": 0.436,
+              "cat": 0.4631,
+              "black": 0.0,
+              "sofa": 0.0933
+            },
+            "mean_iou": 0.2481,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "cat_on_table",
+        "prompt_mean_iou": 0.3065,
+        "per_image": [
+          {
+            "per_token": {
+              "cat": 0.5577,
+              "table": 0.133
+            },
+            "mean_iou": 0.3453,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cat": 0.6432,
+              "table": 0.0581
+            },
+            "mean_iou": 0.3507,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cat": 0.4062,
+              "table": 0.0387
+            },
+            "mean_iou": 0.2225,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cat": 0.6875,
+              "table": 0.0189
+            },
+            "mean_iou": 0.3532,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cat": 0.587,
+              "table": 0.0143
+            },
+            "mean_iou": 0.3006,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cat": 0.3771,
+              "table": 0.0231
+            },
+            "mean_iou": 0.2001,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cat": 0.7161,
+              "table": 0.0172
+            },
+            "mean_iou": 0.3666,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cat": 0.6258,
+              "table": 0.0001
+            },
+            "mean_iou": 0.313,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "dog_under_umbrella",
+        "prompt_mean_iou": 0.2169,
+        "per_image": [
+          {
+            "per_token": {
+              "dog": 0.1737,
+              "umbrella": 0.2096,
+              "rain": 0.0821
+            },
+            "mean_iou": 0.1551,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "dog": 0.4934,
+              "umbrella": 0.243,
+              "rain": 0.005
+            },
+            "mean_iou": 0.2471,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "dog": 0.3413,
+              "umbrella": 0.0,
+              "rain": 0.1873
+            },
+            "mean_iou": 0.1762,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "dog": 0.3374,
+              "umbrella": 0.3387,
+              "rain": 0.3207
+            },
+            "mean_iou": 0.3323,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "dog": 0.4598,
+              "umbrella": 0.2299,
+              "rain": 0.0885
+            },
+            "mean_iou": 0.2594,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "dog": 0.4431,
+              "umbrella": 0.1772,
+              "rain": 0.1105
+            },
+            "mean_iou": 0.2436,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "dog": 0.149,
+              "umbrella": 0.0875,
+              "rain": 0.1885
+            },
+            "mean_iou": 0.1417,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "dog": 0.3186,
+              "umbrella": 0.1568,
+              "rain": 0.0642
+            },
+            "mean_iou": 0.1799,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "bird_above_church",
+        "prompt_mean_iou": 0.2143,
+        "per_image": [
+          {
+            "per_token": {
+              "bird": 0.0855,
+              "church": 0.4905
+            },
+            "mean_iou": 0.288,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "bird": 0.0859,
+              "church": 0.3663
+            },
+            "mean_iou": 0.2261,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "bird": 0.1198,
+              "church": 0.5002
+            },
+            "mean_iou": 0.31,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "bird": 0.1357,
+              "church": 0.4582
+            },
+            "mean_iou": 0.2969,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "bird": 0.0296,
+              "church": 0.1846
+            },
+            "mean_iou": 0.1071,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "bird": 0.3287,
+              "church": 0.0
+            },
+            "mean_iou": 0.1643,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "bird": 0.0,
+              "church": 0.5873
+            },
+            "mean_iou": 0.2937,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "bird": 0.0568,
+              "church": 0.0
+            },
+            "mean_iou": 0.0284,
+            "seed": 42
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "laptop_mug_books_desk",
+        "prompt_mean_iou": 0.1663,
+        "per_image": [
+          {
+            "per_token": {
+              "laptop": 0.1046,
+              "coffee": 0.2316,
+              "mug": 0.2256,
+              "books": 0.1117,
+              "desk": 0.0683
+            },
+            "mean_iou": 0.1484,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0544,
+              "coffee": 0.1724,
+              "mug": 0.172,
+              "books": 0.3009,
+              "desk": 0.0005
+            },
+            "mean_iou": 0.14,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "laptop": 0.3556,
+              "coffee": 0.0928,
+              "mug": 0.0903,
+              "books": 0.2327,
+              "desk": 0.0579
+            },
+            "mean_iou": 0.1659,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "laptop": 0.2026,
+              "coffee": 0.2747,
+              "mug": 0.27,
+              "books": 0.0,
+              "desk": 0.0661
+            },
+            "mean_iou": 0.1627,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee": 0.2521,
+              "mug": 0.2578,
+              "books": 0.2794,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1579,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee": 0.1711,
+              "mug": 0.1954,
+              "books": 0.5479,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1829,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0887,
+              "coffee": 0.1648,
+              "mug": 0.1434,
+              "books": 0.1736,
+              "desk": 0.1322
+            },
+            "mean_iou": 0.1405,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0612,
+              "coffee": 0.1099,
+              "mug": 0.1237,
+              "books": 0.4302,
+              "desk": 0.4374
+            },
+            "mean_iou": 0.2325,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "guitar_amplifier_mic",
+        "prompt_mean_iou": 0.1831,
+        "per_image": [
+          {
+            "per_token": {
+              "guitar": 0.067,
+              "amplifier": 0.3421,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1364,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "guitar": 0.2393,
+              "amplifier": 0.2816,
+              "microphone": 0.0249
+            },
+            "mean_iou": 0.1819,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1204,
+              "amplifier": 0.3493,
+              "microphone": 0.1123
+            },
+            "mean_iou": 0.194,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "guitar": 0.3663,
+              "amplifier": 0.2113,
+              "microphone": 0.0018
+            },
+            "mean_iou": 0.1931,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0174,
+              "amplifier": 0.5715,
+              "microphone": 0.0022
+            },
+            "mean_iou": 0.197,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1254,
+              "amplifier": 0.0532,
+              "microphone": 0.4234
+            },
+            "mean_iou": 0.2007,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.5266,
+              "microphone": 0.0391
+            },
+            "mean_iou": 0.1886,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0173,
+              "amplifier": 0.5017,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.173,
+            "seed": 7042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "vase_sunflowers_fruit",
+        "prompt_mean_iou": 0.1333,
+        "per_image": [
+          {
+            "per_token": {
+              "vase": 0.0658,
+              "sunflowers": 0.3437,
+              "bowl": 0.122,
+              "fruit": 0.0959
+            },
+            "mean_iou": 0.1568,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "vase": 0.0232,
+              "sunflowers": 0.4509,
+              "bowl": 0.1176,
+              "fruit": 0.101
+            },
+            "mean_iou": 0.1732,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "vase": 0.1543,
+              "sunflowers": 0.258,
+              "bowl": 0.0,
+              "fruit": 0.0427
+            },
+            "mean_iou": 0.1138,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "vase": 0.0282,
+              "sunflowers": 0.4129,
+              "bowl": 0.0004,
+              "fruit": 0.022
+            },
+            "mean_iou": 0.1159,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "vase": 0.0585,
+              "sunflowers": 0.2539,
+              "bowl": 0.0,
+              "fruit": 0.1056
+            },
+            "mean_iou": 0.1045,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "vase": 0.1622,
+              "sunflowers": 0.2212,
+              "bowl": 0.1154,
+              "fruit": 0.0
+            },
+            "mean_iou": 0.1247,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "vase": 0.0351,
+              "sunflowers": 0.5065,
+              "bowl": 0.0771,
+              "fruit": 0.0
+            },
+            "mean_iou": 0.1547,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "vase": 0.0762,
+              "sunflowers": 0.3585,
+              "bowl": 0.0,
+              "fruit": 0.0553
+            },
+            "mean_iou": 0.1225,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "lighthouse_cliff_ocean",
+        "prompt_mean_iou": 0.0978,
+        "per_image": [
+          {
+            "per_token": {
+              "lighthouse": 0.1109,
+              "cliff": 0.2776,
+              "ocean": 0.0661,
+              "sunset": 0.0564
+            },
+            "mean_iou": 0.1278,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0047,
+              "cliff": 0.213,
+              "ocean": 0.0733,
+              "sunset": 0.0305
+            },
+            "mean_iou": 0.0804,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.037,
+              "cliff": 0.3293,
+              "ocean": 0.0593,
+              "sunset": 0.0268
+            },
+            "mean_iou": 0.1131,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0814,
+              "cliff": 0.0428,
+              "ocean": 0.092,
+              "sunset": 0.0629
+            },
+            "mean_iou": 0.0698,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0787,
+              "cliff": 0.1752,
+              "ocean": 0.0189,
+              "sunset": 0.0348
+            },
+            "mean_iou": 0.0769,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0932,
+              "cliff": 0.2625,
+              "ocean": 0.0508,
+              "sunset": 0.0104
+            },
+            "mean_iou": 0.1042,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2177,
+              "cliff": 0.1035,
+              "ocean": 0.0915,
+              "sunset": 0.0207
+            },
+            "mean_iou": 0.1083,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2539,
+              "cliff": 0.1261,
+              "ocean": 0.0266,
+              "sunset": 0.0
+            },
+            "mean_iou": 0.1017,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "cabin_snowy_forest",
+        "prompt_mean_iou": 0.1394,
+        "per_image": [
+          {
+            "per_token": {
+              "cabin": 0.3904,
+              "forest": 0.0625,
+              "smoke": 0.1032,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.139,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5868,
+              "forest": 0.0035,
+              "smoke": 0.0068,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1493,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cabin": 0.4342,
+              "forest": 0.0364,
+              "smoke": 0.0205,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1228,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cabin": 0.4997,
+              "forest": 0.0512,
+              "smoke": 0.0797,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1576,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5068,
+              "forest": 0.0248,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1329,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cabin": 0.4958,
+              "forest": 0.0133,
+              "smoke": 0.0145,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1309,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cabin": 0.2691,
+              "forest": 0.0872,
+              "smoke": 0.1502,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1266,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cabin": 0.6186,
+              "forest": 0.0045,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1558,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "street_market",
+        "prompt_mean_iou": 0.1442,
+        "per_image": [
+          {
+            "per_token": {
+              "market": 0.2908,
+              "fruit": 0.2753,
+              "stands": 0.0,
+              "people": 0.034
+            },
+            "mean_iou": 0.15,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "market": 0.3389,
+              "fruit": 0.1613,
+              "stands": 0.0,
+              "people": 0.1982
+            },
+            "mean_iou": 0.1746,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "market": 0.3416,
+              "fruit": 0.1495,
+              "stands": 0.0,
+              "people": 0.1974
+            },
+            "mean_iou": 0.1721,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "market": 0.2371,
+              "fruit": 0.1784,
+              "stands": 0.0,
+              "people": 0.2491
+            },
+            "mean_iou": 0.1661,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "market": 0.251,
+              "fruit": 0.164,
+              "stands": 0.0,
+              "people": 0.1833
+            },
+            "mean_iou": 0.1496,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "market": 0.2201,
+              "fruit": 0.0807,
+              "stands": 0.0,
+              "people": 0.0525
+            },
+            "mean_iou": 0.0883,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "market": 0.3505,
+              "fruit": 0.0727,
+              "stands": 0.0,
+              "people": 0.1166
+            },
+            "mean_iou": 0.1349,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "market": 0.3063,
+              "fruit": 0.1221,
+              "stands": 0.0,
+              "people": 0.0441
+            },
+            "mean_iou": 0.1181,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "three_red_apples",
+        "prompt_mean_iou": 0.2145,
+        "per_image": [
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.5118,
+              "plate": 0.372
+            },
+            "mean_iou": 0.2946,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.3105,
+              "plate": 0.1415
+            },
+            "mean_iou": 0.1507,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.6296,
+              "plate": 0.0
+            },
+            "mean_iou": 0.2099,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.3008,
+              "plate": 0.0322
+            },
+            "mean_iou": 0.111,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.6439,
+              "plate": 0.059
+            },
+            "mean_iou": 0.2343,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "red": 0.0001,
+              "apples": 0.4931,
+              "plate": 0.2796
+            },
+            "mean_iou": 0.2576,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "red": 0.0372,
+              "apples": 0.431,
+              "plate": 0.2549
+            },
+            "mean_iou": 0.241,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.651,
+              "plate": 0.0
+            },
+            "mean_iou": 0.217,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "two_cats_bench",
+        "prompt_mean_iou": 0.1861,
+        "per_image": [
+          {
+            "per_token": {
+              "cats": 0.5868,
+              "bench": 0.1355,
+              "garden": 0.0018
+            },
+            "mean_iou": 0.2414,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cats": 0.498,
+              "bench": 0.0746,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1909,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cats": 0.5211,
+              "bench": 0.1854,
+              "garden": 0.0825
+            },
+            "mean_iou": 0.263,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cats": 0.4346,
+              "bench": 0.0126,
+              "garden": 0.0005
+            },
+            "mean_iou": 0.1492,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cats": 0.4536,
+              "bench": 0.0224,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1587,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cats": 0.4239,
+              "bench": 0.0016,
+              "garden": 0.0001
+            },
+            "mean_iou": 0.1419,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cats": 0.3548,
+              "bench": 0.0098,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1215,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cats": 0.6036,
+              "bench": 0.0619,
+              "garden": 0.0001
+            },
+            "mean_iou": 0.2219,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "five_candles_cake",
+        "prompt_mean_iou": 0.2358,
+        "per_image": [
+          {
+            "per_token": {
+              "candles": 0.1051,
+              "cake": 0.388,
+              "frosting": 0.3181
+            },
+            "mean_iou": 0.2704,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "candles": 0.1345,
+              "cake": 0.2652,
+              "frosting": 0.2647
+            },
+            "mean_iou": 0.2215,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "candles": 0.4357,
+              "cake": 0.1007,
+              "frosting": 0.0763
+            },
+            "mean_iou": 0.2042,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "candles": 0.1009,
+              "cake": 0.3777,
+              "frosting": 0.3881
+            },
+            "mean_iou": 0.2889,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "candles": 0.0013,
+              "cake": 0.236,
+              "frosting": 0.4035
+            },
+            "mean_iou": 0.2136,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "candles": 0.0918,
+              "cake": 0.2441,
+              "frosting": 0.2493
+            },
+            "mean_iou": 0.1951,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "candles": 0.5202,
+              "cake": 0.0,
+              "frosting": 0.0
+            },
+            "mean_iou": 0.1734,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "candles": 0.1991,
+              "cake": 0.3719,
+              "frosting": 0.3876
+            },
+            "mean_iou": 0.3195,
+            "seed": 42
+          }
+        ]
+      }
+    ],
+    "overall_mean_iou": 0.1991
+  },
+  "P2_p2p": {
+    "config_name": "P2: Prompt-to-Prompt (Hertz et al.)",
+    "prompts": [
+      {
+        "category": "color_binding",
+        "slug": "blue_car_red_hydrant",
+        "prompt_mean_iou": 0.2555,
+        "per_image": [
+          {
+            "per_token": {
+              "blue": 0.5091,
+              "car": 0.6048,
+              "red": 0.0
+            },
+            "mean_iou": 0.3713,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "blue": 0.3133,
+              "car": 0.5925,
+              "red": 0.0378
+            },
+            "mean_iou": 0.3145,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "blue": 0.258,
+              "car": 0.5148,
+              "red": 0.0691
+            },
+            "mean_iou": 0.2806,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "blue": 0.2056,
+              "car": 0.0,
+              "red": 0.3129
+            },
+            "mean_iou": 0.1728,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "blue": 0.1644,
+              "car": 0.5699,
+              "red": 0.0
+            },
+            "mean_iou": 0.2448,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "blue": 0.005,
+              "car": 0.5943,
+              "red": 0.0096
+            },
+            "mean_iou": 0.203,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "blue": 0.3493,
+              "car": 0.6204,
+              "red": 0.0271
+            },
+            "mean_iou": 0.3323,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "blue": 0.0,
+              "car": 0.0,
+              "red": 0.3742
+            },
+            "mean_iou": 0.1247,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "green_parrot_yellow_branch",
+        "prompt_mean_iou": 0.3252,
+        "per_image": [
+          {
+            "per_token": {
+              "green": 0.3863,
+              "parrot": 0.6423,
+              "yellow": 0.565,
+              "branch": 0.0494
+            },
+            "mean_iou": 0.4107,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "green": 0.0058,
+              "parrot": 0.6254,
+              "yellow": 0.3844,
+              "branch": 0.1294
+            },
+            "mean_iou": 0.2863,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "green": 0.2049,
+              "parrot": 0.7352,
+              "yellow": 0.5112,
+              "branch": 0.0
+            },
+            "mean_iou": 0.3628,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "green": 0.0,
+              "parrot": 0.7038,
+              "yellow": 0.5008,
+              "branch": 0.0617
+            },
+            "mean_iou": 0.3166,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "green": 0.1759,
+              "parrot": 0.5971,
+              "yellow": 0.5361,
+              "branch": 0.0
+            },
+            "mean_iou": 0.3273,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "green": 0.0,
+              "parrot": 0.5192,
+              "yellow": 0.38,
+              "branch": 0.0538
+            },
+            "mean_iou": 0.2382,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "green": 0.0189,
+              "parrot": 0.695,
+              "yellow": 0.6308,
+              "branch": 0.1214
+            },
+            "mean_iou": 0.3665,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "green": 0.1466,
+              "parrot": 0.4749,
+              "yellow": 0.4105,
+              "branch": 0.141
+            },
+            "mean_iou": 0.2933,
+            "seed": 3042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "white_cat_black_sofa",
+        "prompt_mean_iou": 0.3024,
+        "per_image": [
+          {
+            "per_token": {
+              "white": 0.3989,
+              "cat": 0.5836,
+              "black": 0.0,
+              "sofa": 0.0646
+            },
+            "mean_iou": 0.2618,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "white": 0.6506,
+              "cat": 0.7242,
+              "black": 0.0,
+              "sofa": 0.0492
+            },
+            "mean_iou": 0.356,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "white": 0.3385,
+              "cat": 0.6277,
+              "black": 0.1899,
+              "sofa": 0.005
+            },
+            "mean_iou": 0.2903,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "white": 0.4781,
+              "cat": 0.6102,
+              "black": 0.0,
+              "sofa": 0.007
+            },
+            "mean_iou": 0.2738,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "white": 0.4809,
+              "cat": 0.528,
+              "black": 0.0573,
+              "sofa": 0.2468
+            },
+            "mean_iou": 0.3282,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "white": 0.1615,
+              "cat": 0.4977,
+              "black": 0.0,
+              "sofa": 0.0102
+            },
+            "mean_iou": 0.1673,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "white": 0.5342,
+              "cat": 0.7622,
+              "black": 0.0098,
+              "sofa": 0.1763
+            },
+            "mean_iou": 0.3706,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "white": 0.7365,
+              "cat": 0.7425,
+              "black": 0.0,
+              "sofa": 0.0058
+            },
+            "mean_iou": 0.3712,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "cat_on_table",
+        "prompt_mean_iou": 0.3713,
+        "per_image": [
+          {
+            "per_token": {
+              "cat": 0.559,
+              "table": 0.109
+            },
+            "mean_iou": 0.334,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cat": 0.7608,
+              "table": 0.0255
+            },
+            "mean_iou": 0.3931,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cat": 0.7183,
+              "table": 0.0593
+            },
+            "mean_iou": 0.3888,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cat": 0.8163,
+              "table": 0.0
+            },
+            "mean_iou": 0.4082,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cat": 0.6742,
+              "table": 0.01
+            },
+            "mean_iou": 0.3421,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cat": 0.464,
+              "table": 0.2562
+            },
+            "mean_iou": 0.3601,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cat": 0.8004,
+              "table": 0.0006
+            },
+            "mean_iou": 0.4005,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cat": 0.6878,
+              "table": 0.0
+            },
+            "mean_iou": 0.3439,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "dog_under_umbrella",
+        "prompt_mean_iou": 0.2204,
+        "per_image": [
+          {
+            "per_token": {
+              "dog": 0.1747,
+              "umbrella": 0.2094,
+              "rain": 0.0763
+            },
+            "mean_iou": 0.1535,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "dog": 0.671,
+              "umbrella": 0.0521,
+              "rain": 0.0482
+            },
+            "mean_iou": 0.2571,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "dog": 0.3468,
+              "umbrella": 0.0,
+              "rain": 0.1968
+            },
+            "mean_iou": 0.1812,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "dog": 0.3532,
+              "umbrella": 0.2874,
+              "rain": 0.2789
+            },
+            "mean_iou": 0.3065,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "dog": 0.4352,
+              "umbrella": 0.172,
+              "rain": 0.0895
+            },
+            "mean_iou": 0.2322,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "dog": 0.6629,
+              "umbrella": 0.095,
+              "rain": 0.0659
+            },
+            "mean_iou": 0.2746,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "dog": 0.2379,
+              "umbrella": 0.0877,
+              "rain": 0.1705
+            },
+            "mean_iou": 0.1654,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "dog": 0.3191,
+              "umbrella": 0.1537,
+              "rain": 0.1063
+            },
+            "mean_iou": 0.193,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "bird_above_church",
+        "prompt_mean_iou": 0.1905,
+        "per_image": [
+          {
+            "per_token": {
+              "bird": 0.0945,
+              "church": 0.3387
+            },
+            "mean_iou": 0.2166,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "bird": 0.0893,
+              "church": 0.2959
+            },
+            "mean_iou": 0.1926,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "bird": 0.1202,
+              "church": 0.3835
+            },
+            "mean_iou": 0.2519,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "bird": 0.1383,
+              "church": 0.3827
+            },
+            "mean_iou": 0.2605,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "bird": 0.0296,
+              "church": 0.2101
+            },
+            "mean_iou": 0.1199,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "bird": 0.3287,
+              "church": 0.0
+            },
+            "mean_iou": 0.1643,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "bird": 0.0,
+              "church": 0.58
+            },
+            "mean_iou": 0.29,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "bird": 0.057,
+              "church": 0.0
+            },
+            "mean_iou": 0.0285,
+            "seed": 42
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "laptop_mug_books_desk",
+        "prompt_mean_iou": 0.1888,
+        "per_image": [
+          {
+            "per_token": {
+              "laptop": 0.2888,
+              "coffee": 0.2682,
+              "mug": 0.2644,
+              "books": 0.1897,
+              "desk": 0.0693
+            },
+            "mean_iou": 0.2161,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0817,
+              "coffee": 0.1954,
+              "mug": 0.1897,
+              "books": 0.1891,
+              "desk": 0.0122
+            },
+            "mean_iou": 0.1336,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "laptop": 0.3804,
+              "coffee": 0.2754,
+              "mug": 0.271,
+              "books": 0.2008,
+              "desk": 0.0213
+            },
+            "mean_iou": 0.2298,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "laptop": 0.3891,
+              "coffee": 0.2698,
+              "mug": 0.2546,
+              "books": 0.0015,
+              "desk": 0.092
+            },
+            "mean_iou": 0.2014,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee": 0.184,
+              "mug": 0.192,
+              "books": 0.2254,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1203,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee": 0.3241,
+              "mug": 0.3375,
+              "books": 0.2966,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1916,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "laptop": 0.2011,
+              "coffee": 0.1983,
+              "mug": 0.2415,
+              "books": 0.1819,
+              "desk": 0.0761
+            },
+            "mean_iou": 0.1798,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "laptop": 0.1762,
+              "coffee": 0.115,
+              "mug": 0.1146,
+              "books": 0.3776,
+              "desk": 0.4071
+            },
+            "mean_iou": 0.2381,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "guitar_amplifier_mic",
+        "prompt_mean_iou": 0.1851,
+        "per_image": [
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.4473,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1491,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "guitar": 0.1201,
+              "amplifier": 0.3179,
+              "microphone": 0.0357
+            },
+            "mean_iou": 0.1579,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1209,
+              "amplifier": 0.3499,
+              "microphone": 0.0773
+            },
+            "mean_iou": 0.1827,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1827,
+              "amplifier": 0.5377,
+              "microphone": 0.0194
+            },
+            "mean_iou": 0.2466,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0015,
+              "amplifier": 0.5718,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1911,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1384,
+              "amplifier": 0.0548,
+              "microphone": 0.4351
+            },
+            "mean_iou": 0.2094,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.4349,
+              "microphone": 0.0575
+            },
+            "mean_iou": 0.1641,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0213,
+              "amplifier": 0.5175,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1796,
+            "seed": 7042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "vase_sunflowers_fruit",
+        "prompt_mean_iou": 0.1454,
+        "per_image": [
+          {
+            "per_token": {
+              "vase": 0.0693,
+              "sunflowers": 0.1052,
+              "bowl": 0.1717,
+              "fruit": 0.2039
+            },
+            "mean_iou": 0.1375,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "vase": 0.2501,
+              "sunflowers": 0.0757,
+              "bowl": 0.2869,
+              "fruit": 0.1293
+            },
+            "mean_iou": 0.1855,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "vase": 0.3425,
+              "sunflowers": 0.0742,
+              "bowl": 0.0,
+              "fruit": 0.1351
+            },
+            "mean_iou": 0.138,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "vase": 0.1537,
+              "sunflowers": 0.1341,
+              "bowl": 0.1077,
+              "fruit": 0.1787
+            },
+            "mean_iou": 0.1436,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "vase": 0.2641,
+              "sunflowers": 0.0642,
+              "bowl": 0.0,
+              "fruit": 0.1097
+            },
+            "mean_iou": 0.1095,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "vase": 0.1618,
+              "sunflowers": 0.2104,
+              "bowl": 0.1495,
+              "fruit": 0.0
+            },
+            "mean_iou": 0.1304,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "vase": 0.302,
+              "sunflowers": 0.1511,
+              "bowl": 0.3362,
+              "fruit": 0.0
+            },
+            "mean_iou": 0.1973,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "vase": 0.1217,
+              "sunflowers": 0.1963,
+              "bowl": 0.0004,
+              "fruit": 0.1677
+            },
+            "mean_iou": 0.1215,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "lighthouse_cliff_ocean",
+        "prompt_mean_iou": 0.1017,
+        "per_image": [
+          {
+            "per_token": {
+              "lighthouse": 0.1109,
+              "cliff": 0.3803,
+              "ocean": 0.0198,
+              "sunset": 0.0162
+            },
+            "mean_iou": 0.1318,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0047,
+              "cliff": 0.3659,
+              "ocean": 0.0113,
+              "sunset": 0.0132
+            },
+            "mean_iou": 0.0988,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0371,
+              "cliff": 0.2666,
+              "ocean": 0.0589,
+              "sunset": 0.0265
+            },
+            "mean_iou": 0.0973,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0819,
+              "cliff": 0.2679,
+              "ocean": 0.0192,
+              "sunset": 0.0218
+            },
+            "mean_iou": 0.0977,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0787,
+              "cliff": 0.1704,
+              "ocean": 0.0059,
+              "sunset": 0.007
+            },
+            "mean_iou": 0.0655,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.1036,
+              "cliff": 0.2972,
+              "ocean": 0.0466,
+              "sunset": 0.0118
+            },
+            "mean_iou": 0.1148,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2177,
+              "cliff": 0.0989,
+              "ocean": 0.0789,
+              "sunset": 0.0041
+            },
+            "mean_iou": 0.0999,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2502,
+              "cliff": 0.118,
+              "ocean": 0.0617,
+              "sunset": 0.0
+            },
+            "mean_iou": 0.1075,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "cabin_snowy_forest",
+        "prompt_mean_iou": 0.1466,
+        "per_image": [
+          {
+            "per_token": {
+              "cabin": 0.4584,
+              "forest": 0.0504,
+              "smoke": 0.331,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.2099,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cabin": 0.4114,
+              "forest": 0.0143,
+              "smoke": 0.1334,
+              "chimney": 0.0002
+            },
+            "mean_iou": 0.1398,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cabin": 0.5418,
+              "forest": 0.0024,
+              "smoke": 0.0147,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1397,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5336,
+              "forest": 0.022,
+              "smoke": 0.0715,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1568,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5195,
+              "forest": 0.008,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1319,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cabin": 0.351,
+              "forest": 0.0217,
+              "smoke": 0.2092,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1455,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cabin": 0.2643,
+              "forest": 0.0299,
+              "smoke": 0.1748,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1172,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cabin": 0.4967,
+              "forest": 0.0077,
+              "smoke": 0.0227,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1318,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "street_market",
+        "prompt_mean_iou": 0.0927,
+        "per_image": [
+          {
+            "per_token": {
+              "market": 0.1164,
+              "fruit": 0.0118,
+              "stands": 0.0,
+              "people": 0.0925
+            },
+            "mean_iou": 0.0552,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "market": 0.1492,
+              "fruit": 0.0001,
+              "stands": 0.0,
+              "people": 0.2807
+            },
+            "mean_iou": 0.1075,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "market": 0.1605,
+              "fruit": 0.0285,
+              "stands": 0.0,
+              "people": 0.1911
+            },
+            "mean_iou": 0.095,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "market": 0.1159,
+              "fruit": 0.0038,
+              "stands": 0.0,
+              "people": 0.4311
+            },
+            "mean_iou": 0.1377,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "market": 0.1349,
+              "fruit": 0.0,
+              "stands": 0.0,
+              "people": 0.1645
+            },
+            "mean_iou": 0.0748,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "market": 0.2071,
+              "fruit": 0.0174,
+              "stands": 0.0,
+              "people": 0.1781
+            },
+            "mean_iou": 0.1007,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "market": 0.2386,
+              "fruit": 0.0016,
+              "stands": 0.0,
+              "people": 0.2062
+            },
+            "mean_iou": 0.1116,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "market": 0.1357,
+              "fruit": 0.0768,
+              "stands": 0.0,
+              "people": 0.0229
+            },
+            "mean_iou": 0.0588,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "three_red_apples",
+        "prompt_mean_iou": 0.1952,
+        "per_image": [
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.5107,
+              "plate": 0.3259
+            },
+            "mean_iou": 0.2789,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.2913,
+              "plate": 0.026
+            },
+            "mean_iou": 0.1058,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.6126,
+              "plate": 0.0
+            },
+            "mean_iou": 0.2042,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.3035,
+              "plate": 0.0102
+            },
+            "mean_iou": 0.1046,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.718,
+              "plate": 0.0453
+            },
+            "mean_iou": 0.2544,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.6294,
+              "plate": 0.2343
+            },
+            "mean_iou": 0.2879,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "red": 0.0691,
+              "apples": 0.2475,
+              "plate": 0.1264
+            },
+            "mean_iou": 0.1477,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.5333,
+              "plate": 0.0
+            },
+            "mean_iou": 0.1778,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "two_cats_bench",
+        "prompt_mean_iou": 0.2141,
+        "per_image": [
+          {
+            "per_token": {
+              "cats": 0.7308,
+              "bench": 0.0709,
+              "garden": 0.006
+            },
+            "mean_iou": 0.2692,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cats": 0.7867,
+              "bench": 0.005,
+              "garden": 0.0
+            },
+            "mean_iou": 0.2639,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cats": 0.7323,
+              "bench": 0.0643,
+              "garden": 0.0314
+            },
+            "mean_iou": 0.276,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cats": 0.4868,
+              "bench": 0.0029,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1632,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cats": 0.5149,
+              "bench": 0.0004,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1718,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cats": 0.4663,
+              "bench": 0.0,
+              "garden": 0.0035
+            },
+            "mean_iou": 0.1566,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cats": 0.3819,
+              "bench": 0.0,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1273,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cats": 0.8384,
+              "bench": 0.0155,
+              "garden": 0.0
+            },
+            "mean_iou": 0.2846,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "five_candles_cake",
+        "prompt_mean_iou": 0.2305,
+        "per_image": [
+          {
+            "per_token": {
+              "candles": 0.1618,
+              "cake": 0.3825,
+              "frosting": 0.2505
+            },
+            "mean_iou": 0.2649,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "candles": 0.0985,
+              "cake": 0.3116,
+              "frosting": 0.2935
+            },
+            "mean_iou": 0.2345,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "candles": 0.396,
+              "cake": 0.1845,
+              "frosting": 0.0711
+            },
+            "mean_iou": 0.2172,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "candles": 0.0892,
+              "cake": 0.3271,
+              "frosting": 0.347
+            },
+            "mean_iou": 0.2544,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "candles": 0.0,
+              "cake": 0.185,
+              "frosting": 0.1214
+            },
+            "mean_iou": 0.1021,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "candles": 0.0246,
+              "cake": 0.3359,
+              "frosting": 0.3641
+            },
+            "mean_iou": 0.2415,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "candles": 0.3497,
+              "cake": 0.0,
+              "frosting": 0.0
+            },
+            "mean_iou": 0.1166,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "candles": 0.1044,
+              "cake": 0.5463,
+              "frosting": 0.5885
+            },
+            "mean_iou": 0.4131,
+            "seed": 42
+          }
+        ]
+      }
+    ],
+    "overall_mean_iou": 0.211
+  },
+  "P3_ae": {
+    "config_name": "P3: Attend-and-Excite (Chefer et al.)",
+    "prompts": [
+      {
+        "category": "color_binding",
+        "slug": "blue_car_red_hydrant",
+        "prompt_mean_iou": 0.2832,
+        "per_image": [
+          {
+            "per_token": {
+              "blue": 0.5559,
+              "car": 0.6355,
+              "red": 0.0
+            },
+            "mean_iou": 0.3971,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "blue": 0.3219,
+              "car": 0.6063,
+              "red": 0.017
+            },
+            "mean_iou": 0.3151,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "blue": 0.3357,
+              "car": 0.6529,
+              "red": 0.05
+            },
+            "mean_iou": 0.3462,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "blue": 0.3367,
+              "car": 0.0,
+              "red": 0.3114
+            },
+            "mean_iou": 0.216,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "blue": 0.2424,
+              "car": 0.6472,
+              "red": 0.0
+            },
+            "mean_iou": 0.2965,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "blue": 0.005,
+              "car": 0.6049,
+              "red": 0.0
+            },
+            "mean_iou": 0.2033,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "blue": 0.3667,
+              "car": 0.5671,
+              "red": 0.0022
+            },
+            "mean_iou": 0.312,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "blue": 0.0,
+              "car": 0.0,
+              "red": 0.538
+            },
+            "mean_iou": 0.1793,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "green_parrot_yellow_branch",
+        "prompt_mean_iou": 0.3337,
+        "per_image": [
+          {
+            "per_token": {
+              "green": 0.4251,
+              "parrot": 0.691,
+              "yellow": 0.6597,
+              "branch": 0.0
+            },
+            "mean_iou": 0.4439,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "green": 0.0071,
+              "parrot": 0.5753,
+              "yellow": 0.4117,
+              "branch": 0.1142
+            },
+            "mean_iou": 0.2771,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "green": 0.1908,
+              "parrot": 0.7094,
+              "yellow": 0.4794,
+              "branch": 0.0
+            },
+            "mean_iou": 0.3449,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "green": 0.0,
+              "parrot": 0.7141,
+              "yellow": 0.4699,
+              "branch": 0.0614
+            },
+            "mean_iou": 0.3113,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "green": 0.2,
+              "parrot": 0.6417,
+              "yellow": 0.6186,
+              "branch": 0.0
+            },
+            "mean_iou": 0.3651,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "green": 0.0,
+              "parrot": 0.5236,
+              "yellow": 0.38,
+              "branch": 0.0621
+            },
+            "mean_iou": 0.2414,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "green": 0.0189,
+              "parrot": 0.7888,
+              "yellow": 0.6466,
+              "branch": 0.071
+            },
+            "mean_iou": 0.3813,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "green": 0.1586,
+              "parrot": 0.4887,
+              "yellow": 0.4332,
+              "branch": 0.1364
+            },
+            "mean_iou": 0.3042,
+            "seed": 3042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "white_cat_black_sofa",
+        "prompt_mean_iou": 0.3066,
+        "per_image": [
+          {
+            "per_token": {
+              "white": 0.3989,
+              "cat": 0.5836,
+              "black": 0.0,
+              "sofa": 0.07
+            },
+            "mean_iou": 0.2631,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "white": 0.6518,
+              "cat": 0.7241,
+              "black": 0.0002,
+              "sofa": 0.0574
+            },
+            "mean_iou": 0.3584,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "white": 0.3395,
+              "cat": 0.6017,
+              "black": 0.2175,
+              "sofa": 0.0016
+            },
+            "mean_iou": 0.2901,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "white": 0.5316,
+              "cat": 0.634,
+              "black": 0.0,
+              "sofa": 0.0
+            },
+            "mean_iou": 0.2914,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "white": 0.544,
+              "cat": 0.6093,
+              "black": 0.0497,
+              "sofa": 0.2647
+            },
+            "mean_iou": 0.3669,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "white": 0.1241,
+              "cat": 0.4961,
+              "black": 0.0,
+              "sofa": 0.0014
+            },
+            "mean_iou": 0.1554,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "white": 0.5208,
+              "cat": 0.7559,
+              "black": 0.0203,
+              "sofa": 0.2058
+            },
+            "mean_iou": 0.3757,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "white": 0.6866,
+              "cat": 0.721,
+              "black": 0.0,
+              "sofa": 0.0008
+            },
+            "mean_iou": 0.3521,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "cat_on_table",
+        "prompt_mean_iou": 0.365,
+        "per_image": [
+          {
+            "per_token": {
+              "cat": 0.5653,
+              "table": 0.1611
+            },
+            "mean_iou": 0.3632,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cat": 0.7632,
+              "table": 0.022
+            },
+            "mean_iou": 0.3926,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cat": 0.6807,
+              "table": 0.0666
+            },
+            "mean_iou": 0.3736,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cat": 0.8028,
+              "table": 0.0
+            },
+            "mean_iou": 0.4014,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cat": 0.6619,
+              "table": 0.0
+            },
+            "mean_iou": 0.331,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cat": 0.4604,
+              "table": 0.1627
+            },
+            "mean_iou": 0.3115,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cat": 0.7871,
+              "table": 0.0007
+            },
+            "mean_iou": 0.3939,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cat": 0.7063,
+              "table": 0.0
+            },
+            "mean_iou": 0.3532,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "dog_under_umbrella",
+        "prompt_mean_iou": 0.2256,
+        "per_image": [
+          {
+            "per_token": {
+              "dog": 0.1748,
+              "umbrella": 0.2096,
+              "rain": 0.0848
+            },
+            "mean_iou": 0.1564,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "dog": 0.6564,
+              "umbrella": 0.0431,
+              "rain": 0.117
+            },
+            "mean_iou": 0.2722,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "dog": 0.3353,
+              "umbrella": 0.0,
+              "rain": 0.217
+            },
+            "mean_iou": 0.1841,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "dog": 0.3499,
+              "umbrella": 0.3038,
+              "rain": 0.3374
+            },
+            "mean_iou": 0.3304,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "dog": 0.3909,
+              "umbrella": 0.2944,
+              "rain": 0.1087
+            },
+            "mean_iou": 0.2647,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "dog": 0.6243,
+              "umbrella": 0.1182,
+              "rain": 0.0683
+            },
+            "mean_iou": 0.2703,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "dog": 0.1763,
+              "umbrella": 0.0867,
+              "rain": 0.1911
+            },
+            "mean_iou": 0.1514,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "dog": 0.3191,
+              "umbrella": 0.1017,
+              "rain": 0.1054
+            },
+            "mean_iou": 0.1754,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "bird_above_church",
+        "prompt_mean_iou": 0.2248,
+        "per_image": [
+          {
+            "per_token": {
+              "bird": 0.0907,
+              "church": 0.4161
+            },
+            "mean_iou": 0.2534,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "bird": 0.0849,
+              "church": 0.6151
+            },
+            "mean_iou": 0.35,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "bird": 0.1186,
+              "church": 0.4416
+            },
+            "mean_iou": 0.2801,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "bird": 0.1385,
+              "church": 0.416
+            },
+            "mean_iou": 0.2772,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "bird": 0.0296,
+              "church": 0.2119
+            },
+            "mean_iou": 0.1207,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "bird": 0.3287,
+              "church": 0.0
+            },
+            "mean_iou": 0.1643,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "bird": 0.0,
+              "church": 0.649
+            },
+            "mean_iou": 0.3245,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "bird": 0.057,
+              "church": 0.0
+            },
+            "mean_iou": 0.0285,
+            "seed": 42
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "laptop_mug_books_desk",
+        "prompt_mean_iou": 0.2074,
+        "per_image": [
+          {
+            "per_token": {
+              "laptop": 0.4127,
+              "coffee": 0.2862,
+              "mug": 0.2782,
+              "books": 0.1636,
+              "desk": 0.0375
+            },
+            "mean_iou": 0.2356,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0088,
+              "coffee": 0.2699,
+              "mug": 0.2611,
+              "books": 0.243,
+              "desk": 0.0006
+            },
+            "mean_iou": 0.1567,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "laptop": 0.2922,
+              "coffee": 0.2678,
+              "mug": 0.2501,
+              "books": 0.227,
+              "desk": 0.0041
+            },
+            "mean_iou": 0.2082,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "laptop": 0.3517,
+              "coffee": 0.2634,
+              "mug": 0.2458,
+              "books": 0.0,
+              "desk": 0.0863
+            },
+            "mean_iou": 0.1894,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee": 0.2995,
+              "mug": 0.3148,
+              "books": 0.21,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1649,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee": 0.3902,
+              "mug": 0.4016,
+              "books": 0.3831,
+              "desk": 0.0
+            },
+            "mean_iou": 0.235,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0948,
+              "coffee": 0.1662,
+              "mug": 0.1645,
+              "books": 0.3037,
+              "desk": 0.1687
+            },
+            "mean_iou": 0.1796,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0883,
+              "coffee": 0.1608,
+              "mug": 0.1544,
+              "books": 0.4966,
+              "desk": 0.5496
+            },
+            "mean_iou": 0.2899,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "guitar_amplifier_mic",
+        "prompt_mean_iou": 0.2012,
+        "per_image": [
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.4542,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1514,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "guitar": 0.1576,
+              "amplifier": 0.3218,
+              "microphone": 0.0357
+            },
+            "mean_iou": 0.1717,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0685,
+              "amplifier": 0.4791,
+              "microphone": 0.0619
+            },
+            "mean_iou": 0.2032,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "guitar": 0.213,
+              "amplifier": 0.5244,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.2458,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.6684,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.2228,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1598,
+              "amplifier": 0.0549,
+              "microphone": 0.4291
+            },
+            "mean_iou": 0.2146,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.5709,
+              "microphone": 0.0504
+            },
+            "mean_iou": 0.2071,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0116,
+              "amplifier": 0.5671,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1929,
+            "seed": 7042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "vase_sunflowers_fruit",
+        "prompt_mean_iou": 0.1485,
+        "per_image": [
+          {
+            "per_token": {
+              "vase": 0.0852,
+              "sunflowers": 0.1812,
+              "bowl": 0.1441,
+              "fruit": 0.1587
+            },
+            "mean_iou": 0.1423,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "vase": 0.1955,
+              "sunflowers": 0.1219,
+              "bowl": 0.2849,
+              "fruit": 0.146
+            },
+            "mean_iou": 0.1871,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "vase": 0.3564,
+              "sunflowers": 0.0896,
+              "bowl": 0.0,
+              "fruit": 0.1197
+            },
+            "mean_iou": 0.1414,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "vase": 0.1167,
+              "sunflowers": 0.2241,
+              "bowl": 0.0724,
+              "fruit": 0.1355
+            },
+            "mean_iou": 0.1372,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "vase": 0.2517,
+              "sunflowers": 0.0878,
+              "bowl": 0.0,
+              "fruit": 0.1093
+            },
+            "mean_iou": 0.1122,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "vase": 0.3008,
+              "sunflowers": 0.194,
+              "bowl": 0.1689,
+              "fruit": 0.0
+            },
+            "mean_iou": 0.1659,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "vase": 0.1415,
+              "sunflowers": 0.3035,
+              "bowl": 0.2322,
+              "fruit": 0.0
+            },
+            "mean_iou": 0.1693,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "vase": 0.1622,
+              "sunflowers": 0.2835,
+              "bowl": 0.0,
+              "fruit": 0.0852
+            },
+            "mean_iou": 0.1327,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "lighthouse_cliff_ocean",
+        "prompt_mean_iou": 0.1003,
+        "per_image": [
+          {
+            "per_token": {
+              "lighthouse": 0.1109,
+              "cliff": 0.3476,
+              "ocean": 0.0334,
+              "sunset": 0.03
+            },
+            "mean_iou": 0.1305,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0047,
+              "cliff": 0.4196,
+              "ocean": 0.0059,
+              "sunset": 0.0046
+            },
+            "mean_iou": 0.1087,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0371,
+              "cliff": 0.271,
+              "ocean": 0.0548,
+              "sunset": 0.0113
+            },
+            "mean_iou": 0.0936,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0819,
+              "cliff": 0.1944,
+              "ocean": 0.0766,
+              "sunset": 0.0127
+            },
+            "mean_iou": 0.0914,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0787,
+              "cliff": 0.1694,
+              "ocean": 0.0,
+              "sunset": 0.0073
+            },
+            "mean_iou": 0.0638,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0987,
+              "cliff": 0.3514,
+              "ocean": 0.0115,
+              "sunset": 0.0077
+            },
+            "mean_iou": 0.1173,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2177,
+              "cliff": 0.0405,
+              "ocean": 0.1126,
+              "sunset": 0.0025
+            },
+            "mean_iou": 0.0933,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2548,
+              "cliff": 0.1117,
+              "ocean": 0.048,
+              "sunset": 0.0
+            },
+            "mean_iou": 0.1036,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "cabin_snowy_forest",
+        "prompt_mean_iou": 0.1645,
+        "per_image": [
+          {
+            "per_token": {
+              "cabin": 0.3468,
+              "forest": 0.0629,
+              "smoke": 0.3363,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1865,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cabin": 0.604,
+              "forest": 0.0,
+              "smoke": 0.0044,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1521,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cabin": 0.6905,
+              "forest": 0.0,
+              "smoke": 0.0042,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1737,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cabin": 0.6944,
+              "forest": 0.0132,
+              "smoke": 0.0694,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1943,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cabin": 0.6561,
+              "forest": 0.0019,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1645,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5651,
+              "forest": 0.0033,
+              "smoke": 0.0641,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1581,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cabin": 0.3205,
+              "forest": 0.027,
+              "smoke": 0.1491,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1242,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cabin": 0.6491,
+              "forest": 0.0013,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1626,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "street_market",
+        "prompt_mean_iou": 0.127,
+        "per_image": [
+          {
+            "per_token": {
+              "market": 0.131,
+              "fruit": 0.0,
+              "stands": 0.0,
+              "people": 0.0962
+            },
+            "mean_iou": 0.0568,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "market": 0.2539,
+              "fruit": 0.0001,
+              "stands": 0.0,
+              "people": 0.3042
+            },
+            "mean_iou": 0.1396,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "market": 0.3222,
+              "fruit": 0.0783,
+              "stands": 0.0,
+              "people": 0.2043
+            },
+            "mean_iou": 0.1512,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "market": 0.1657,
+              "fruit": 0.0789,
+              "stands": 0.0,
+              "people": 0.4496
+            },
+            "mean_iou": 0.1735,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "market": 0.1518,
+              "fruit": 0.0044,
+              "stands": 0.0,
+              "people": 0.1789
+            },
+            "mean_iou": 0.0838,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "market": 0.1983,
+              "fruit": 0.0551,
+              "stands": 0.0,
+              "people": 0.2199
+            },
+            "mean_iou": 0.1183,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "market": 0.3069,
+              "fruit": 0.0114,
+              "stands": 0.0,
+              "people": 0.2664
+            },
+            "mean_iou": 0.1462,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "market": 0.3489,
+              "fruit": 0.1982,
+              "stands": 0.0,
+              "people": 0.0393
+            },
+            "mean_iou": 0.1466,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "three_red_apples",
+        "prompt_mean_iou": 0.2181,
+        "per_image": [
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.6579,
+              "plate": 0.3745
+            },
+            "mean_iou": 0.3441,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.1946,
+              "plate": 0.2099
+            },
+            "mean_iou": 0.1348,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.6607,
+              "plate": 0.0
+            },
+            "mean_iou": 0.2202,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.3011,
+              "plate": 0.0
+            },
+            "mean_iou": 0.1004,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.7137,
+              "plate": 0.0312
+            },
+            "mean_iou": 0.2483,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "red": 0.0001,
+              "apples": 0.5715,
+              "plate": 0.2988
+            },
+            "mean_iou": 0.2901,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "red": 0.0321,
+              "apples": 0.3944,
+              "plate": 0.2449
+            },
+            "mean_iou": 0.2238,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "red": 0.0,
+              "apples": 0.5486,
+              "plate": 0.0
+            },
+            "mean_iou": 0.1829,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "two_cats_bench",
+        "prompt_mean_iou": 0.2089,
+        "per_image": [
+          {
+            "per_token": {
+              "cats": 0.7427,
+              "bench": 0.0992,
+              "garden": 0.0
+            },
+            "mean_iou": 0.2806,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cats": 0.7855,
+              "bench": 0.0002,
+              "garden": 0.0
+            },
+            "mean_iou": 0.2619,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cats": 0.6695,
+              "bench": 0.0258,
+              "garden": 0.0311
+            },
+            "mean_iou": 0.2421,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cats": 0.4872,
+              "bench": 0.0,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1624,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cats": 0.5279,
+              "bench": 0.0,
+              "garden": 0.0
+            },
+            "mean_iou": 0.176,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cats": 0.4697,
+              "bench": 0.0,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1566,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cats": 0.3825,
+              "bench": 0.0,
+              "garden": 0.0
+            },
+            "mean_iou": 0.1275,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cats": 0.7558,
+              "bench": 0.0377,
+              "garden": 0.0
+            },
+            "mean_iou": 0.2645,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "five_candles_cake",
+        "prompt_mean_iou": 0.2475,
+        "per_image": [
+          {
+            "per_token": {
+              "candles": 0.0162,
+              "cake": 0.4441,
+              "frosting": 0.2307
+            },
+            "mean_iou": 0.2303,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "candles": 0.0252,
+              "cake": 0.3917,
+              "frosting": 0.374
+            },
+            "mean_iou": 0.2636,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "candles": 0.3432,
+              "cake": 0.1588,
+              "frosting": 0.0764
+            },
+            "mean_iou": 0.1928,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "candles": 0.0222,
+              "cake": 0.3946,
+              "frosting": 0.4048
+            },
+            "mean_iou": 0.2739,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "candles": 0.0,
+              "cake": 0.3226,
+              "frosting": 0.1201
+            },
+            "mean_iou": 0.1476,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "candles": 0.0,
+              "cake": 0.3589,
+              "frosting": 0.3963
+            },
+            "mean_iou": 0.2517,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "candles": 0.4541,
+              "cake": 0.0,
+              "frosting": 0.0
+            },
+            "mean_iou": 0.1514,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "candles": 0.0543,
+              "cake": 0.6525,
+              "frosting": 0.6989
+            },
+            "mean_iou": 0.4686,
+            "seed": 42
+          }
+        ]
+      }
+    ],
+    "overall_mean_iou": 0.2242
+  },
+  "ours": {
+    "config_name": "Ours (DAAM+P2P+A&E+Compound)",
+    "prompts": [
+      {
+        "category": "color_binding",
+        "slug": "blue_car_red_hydrant",
+        "prompt_mean_iou": 0.2746,
+        "per_image": [
+          {
+            "per_token": {
+              "blue car": 0.4946,
+              "car": 0.5086,
+              "red fire hydrant": 0.1301,
+              "fire hydrant": 0.1309
+            },
+            "mean_iou": 0.3161,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "blue car": 0.3739,
+              "car": 0.4569,
+              "red fire hydrant": 0.0675,
+              "fire hydrant": 0.0671
+            },
+            "mean_iou": 0.2414,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "blue car": 0.2826,
+              "car": 0.3632,
+              "red fire hydrant": 0.1789,
+              "fire hydrant": 0.1313
+            },
+            "mean_iou": 0.239,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "blue car": 0.0,
+              "car": 0.0,
+              "red fire hydrant": 0.3296,
+              "fire hydrant": 0.3371
+            },
+            "mean_iou": 0.1667,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "blue car": 0.4303,
+              "car": 0.558,
+              "red fire hydrant": 0.0554,
+              "fire hydrant": 0.0657
+            },
+            "mean_iou": 0.2774,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "blue car": 0.3919,
+              "car": 0.503,
+              "red fire hydrant": 0.1608,
+              "fire hydrant": 0.1649
+            },
+            "mean_iou": 0.3052,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "blue car": 0.3892,
+              "car": 0.5984,
+              "red fire hydrant": 0.0,
+              "fire hydrant": 0.0
+            },
+            "mean_iou": 0.2469,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "blue car": 0.0,
+              "car": 0.0,
+              "red fire hydrant": 0.8118,
+              "fire hydrant": 0.8058
+            },
+            "mean_iou": 0.4044,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "green_parrot_yellow_branch",
+        "prompt_mean_iou": 0.2944,
+        "per_image": [
+          {
+            "per_token": {
+              "green parrot": 0.6353,
+              "parrot": 0.6349,
+              "yellow branch": 0.0,
+              "branch": 0.0771
+            },
+            "mean_iou": 0.3368,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "green parrot": 0.422,
+              "parrot": 0.5126,
+              "yellow branch": 0.0,
+              "branch": 0.1451
+            },
+            "mean_iou": 0.2699,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "green parrot": 0.5573,
+              "parrot": 0.6388,
+              "yellow branch": 0.0,
+              "branch": 0.0004
+            },
+            "mean_iou": 0.2991,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "green parrot": 0.5542,
+              "parrot": 0.636,
+              "yellow branch": 0.0,
+              "branch": 0.1151
+            },
+            "mean_iou": 0.3263,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "green parrot": 0.5688,
+              "parrot": 0.6313,
+              "yellow branch": 0.0,
+              "branch": 0.0
+            },
+            "mean_iou": 0.3,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "green parrot": 0.3568,
+              "parrot": 0.4005,
+              "yellow branch": 0.0,
+              "branch": 0.1348
+            },
+            "mean_iou": 0.223,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "green parrot": 0.5805,
+              "parrot": 0.6225,
+              "yellow branch": 0.0876,
+              "branch": 0.2144
+            },
+            "mean_iou": 0.3762,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "green parrot": 0.3039,
+              "parrot": 0.3363,
+              "yellow branch": 0.0408,
+              "branch": 0.2146
+            },
+            "mean_iou": 0.2239,
+            "seed": 3042
+          }
+        ]
+      },
+      {
+        "category": "color_binding",
+        "slug": "white_cat_black_sofa",
+        "prompt_mean_iou": 0.2753,
+        "per_image": [
+          {
+            "per_token": {
+              "white cat": 0.4468,
+              "cat": 0.4376,
+              "black sofa": 0.1072,
+              "sofa": 0.1076
+            },
+            "mean_iou": 0.2748,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "white cat": 0.6837,
+              "cat": 0.6767,
+              "black sofa": 0.0473,
+              "sofa": 0.0875
+            },
+            "mean_iou": 0.3738,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "white cat": 0.6016,
+              "cat": 0.5936,
+              "black sofa": 0.0018,
+              "sofa": 0.0126
+            },
+            "mean_iou": 0.3024,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "white cat": 0.2693,
+              "cat": 0.2256,
+              "black sofa": 0.1827,
+              "sofa": 0.1952
+            },
+            "mean_iou": 0.2182,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "white cat": 0.3768,
+              "cat": 0.3624,
+              "black sofa": 0.1566,
+              "sofa": 0.1904
+            },
+            "mean_iou": 0.2716,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "white cat": 0.3088,
+              "cat": 0.4672,
+              "black sofa": 0.0496,
+              "sofa": 0.0472
+            },
+            "mean_iou": 0.2182,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "white cat": 0.4435,
+              "cat": 0.3969,
+              "black sofa": 0.178,
+              "sofa": 0.186
+            },
+            "mean_iou": 0.3011,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "white cat": 0.3094,
+              "cat": 0.2809,
+              "black sofa": 0.1846,
+              "sofa": 0.1956
+            },
+            "mean_iou": 0.2426,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "cat_on_table",
+        "prompt_mean_iou": 0.3499,
+        "per_image": [
+          {
+            "per_token": {
+              "cat": 0.5659,
+              "wooden table": 0.0946
+            },
+            "mean_iou": 0.3302,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cat": 0.7184,
+              "wooden table": 0.0685
+            },
+            "mean_iou": 0.3935,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cat": 0.568,
+              "wooden table": 0.0214
+            },
+            "mean_iou": 0.2947,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cat": 0.7572,
+              "wooden table": 0.1886
+            },
+            "mean_iou": 0.4729,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cat": 0.6425,
+              "wooden table": 0.0399
+            },
+            "mean_iou": 0.3412,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cat": 0.447,
+              "wooden table": 0.0726
+            },
+            "mean_iou": 0.2598,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cat": 0.7543,
+              "wooden table": 0.0136
+            },
+            "mean_iou": 0.3839,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cat": 0.6466,
+              "wooden table": 0.0
+            },
+            "mean_iou": 0.3233,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "dog_under_umbrella",
+        "prompt_mean_iou": 0.2267,
+        "per_image": [
+          {
+            "per_token": {
+              "dog": 0.1748,
+              "umbrella": 0.2096,
+              "rain": 0.0675
+            },
+            "mean_iou": 0.1506,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "dog": 0.6605,
+              "umbrella": 0.1868,
+              "rain": 0.0039
+            },
+            "mean_iou": 0.2837,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "dog": 0.3458,
+              "umbrella": 0.0,
+              "rain": 0.1888
+            },
+            "mean_iou": 0.1782,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "dog": 0.3738,
+              "umbrella": 0.2718,
+              "rain": 0.2492
+            },
+            "mean_iou": 0.2983,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "dog": 0.4644,
+              "umbrella": 0.2459,
+              "rain": 0.0893
+            },
+            "mean_iou": 0.2665,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "dog": 0.5217,
+              "umbrella": 0.2137,
+              "rain": 0.1243
+            },
+            "mean_iou": 0.2866,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "dog": 0.221,
+              "umbrella": 0.0877,
+              "rain": 0.1812
+            },
+            "mean_iou": 0.1633,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "dog": 0.319,
+              "umbrella": 0.2024,
+              "rain": 0.0386
+            },
+            "mean_iou": 0.1867,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "spatial",
+        "slug": "bird_above_church",
+        "prompt_mean_iou": 0.2091,
+        "per_image": [
+          {
+            "per_token": {
+              "bird": 0.094,
+              "church steeple": 0.2381,
+              "church": 0.4575
+            },
+            "mean_iou": 0.2632,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "bird": 0.0874,
+              "church steeple": 0.1627,
+              "church": 0.2351
+            },
+            "mean_iou": 0.1617,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "bird": 0.1203,
+              "church steeple": 0.3755,
+              "church": 0.5061
+            },
+            "mean_iou": 0.334,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "bird": 0.1375,
+              "church steeple": 0.3405,
+              "church": 0.4623
+            },
+            "mean_iou": 0.3134,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "bird": 0.0296,
+              "church steeple": 0.0,
+              "church": 0.2205
+            },
+            "mean_iou": 0.0834,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "bird": 0.3287,
+              "church steeple": 0.0,
+              "church": 0.0
+            },
+            "mean_iou": 0.1096,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "bird": 0.0,
+              "church steeple": 0.5471,
+              "church": 0.6182
+            },
+            "mean_iou": 0.3884,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "bird": 0.057,
+              "church steeple": 0.0,
+              "church": 0.0
+            },
+            "mean_iou": 0.019,
+            "seed": 42
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "laptop_mug_books_desk",
+        "prompt_mean_iou": 0.1729,
+        "per_image": [
+          {
+            "per_token": {
+              "laptop": 0.1478,
+              "coffee mug": 0.2744,
+              "stack of books": 0.1573,
+              "desk": 0.0782
+            },
+            "mean_iou": 0.1644,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "laptop": 0.1015,
+              "coffee mug": 0.1487,
+              "stack of books": 0.2551,
+              "desk": 0.0001
+            },
+            "mean_iou": 0.1263,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "laptop": 0.3975,
+              "coffee mug": 0.0588,
+              "stack of books": 0.4077,
+              "desk": 0.0342
+            },
+            "mean_iou": 0.2246,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "laptop": 0.1774,
+              "coffee mug": 0.2728,
+              "stack of books": 0.0,
+              "desk": 0.0606
+            },
+            "mean_iou": 0.1277,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee mug": 0.18,
+              "stack of books": 0.3216,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1254,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0,
+              "coffee mug": 0.1499,
+              "stack of books": 0.572,
+              "desk": 0.0
+            },
+            "mean_iou": 0.1805,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "laptop": 0.098,
+              "coffee mug": 0.2025,
+              "stack of books": 0.118,
+              "desk": 0.1046
+            },
+            "mean_iou": 0.1308,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "laptop": 0.0293,
+              "coffee mug": 0.1063,
+              "stack of books": 0.544,
+              "desk": 0.536
+            },
+            "mean_iou": 0.3039,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "guitar_amplifier_mic",
+        "prompt_mean_iou": 0.1803,
+        "per_image": [
+          {
+            "per_token": {
+              "guitar": 0.0446,
+              "amplifier": 0.4069,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1505,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "guitar": 0.1934,
+              "amplifier": 0.3215,
+              "microphone": 0.032
+            },
+            "mean_iou": 0.1823,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "guitar": 0.169,
+              "amplifier": 0.272,
+              "microphone": 0.1119
+            },
+            "mean_iou": 0.1843,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "guitar": 0.326,
+              "amplifier": 0.2548,
+              "microphone": 0.0117
+            },
+            "mean_iou": 0.1975,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0365,
+              "amplifier": 0.5444,
+              "microphone": 0.0021
+            },
+            "mean_iou": 0.1943,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "guitar": 0.1125,
+              "amplifier": 0.0549,
+              "microphone": 0.4229
+            },
+            "mean_iou": 0.1968,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0,
+              "amplifier": 0.4612,
+              "microphone": 0.0377
+            },
+            "mean_iou": 0.1663,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "guitar": 0.0212,
+              "amplifier": 0.4904,
+              "microphone": 0.0
+            },
+            "mean_iou": 0.1705,
+            "seed": 7042
+          }
+        ]
+      },
+      {
+        "category": "multi_object",
+        "slug": "vase_sunflowers_fruit",
+        "prompt_mean_iou": 0.2375,
+        "per_image": [
+          {
+            "per_token": {
+              "vase of sunflowers": 0.3349,
+              "sunflowers": 0.3433,
+              "bowl of fruit": 0.1051
+            },
+            "mean_iou": 0.2611,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.0469,
+              "sunflowers": 0.4141,
+              "bowl of fruit": 0.1862
+            },
+            "mean_iou": 0.2157,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.2658,
+              "sunflowers": 0.2538,
+              "bowl of fruit": 0.0
+            },
+            "mean_iou": 0.1732,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.1014,
+              "sunflowers": 0.3926,
+              "bowl of fruit": 0.1051
+            },
+            "mean_iou": 0.1997,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.2056,
+              "sunflowers": 0.3258,
+              "bowl of fruit": 0.0
+            },
+            "mean_iou": 0.1771,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.4426,
+              "sunflowers": 0.2552,
+              "bowl of fruit": 0.1606
+            },
+            "mean_iou": 0.2861,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.4156,
+              "sunflowers": 0.5364,
+              "bowl of fruit": 0.0
+            },
+            "mean_iou": 0.3173,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "vase of sunflowers": 0.3119,
+              "sunflowers": 0.2962,
+              "bowl of fruit": 0.2019
+            },
+            "mean_iou": 0.27,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "lighthouse_cliff_ocean",
+        "prompt_mean_iou": 0.1028,
+        "per_image": [
+          {
+            "per_token": {
+              "lighthouse": 0.1095,
+              "rocky cliff": 0.3498,
+              "ocean": 0.0548,
+              "sunset sky": 0.0351
+            },
+            "mean_iou": 0.1373,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0047,
+              "rocky cliff": 0.2088,
+              "ocean": 0.0568,
+              "sunset sky": 0.1123
+            },
+            "mean_iou": 0.0957,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0366,
+              "rocky cliff": 0.2964,
+              "ocean": 0.0666,
+              "sunset sky": 0.0525
+            },
+            "mean_iou": 0.113,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0804,
+              "rocky cliff": 0.0804,
+              "ocean": 0.0576,
+              "sunset sky": 0.0582
+            },
+            "mean_iou": 0.0691,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0784,
+              "rocky cliff": 0.1482,
+              "ocean": 0.0264,
+              "sunset sky": 0.0363
+            },
+            "mean_iou": 0.0723,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.0899,
+              "rocky cliff": 0.2536,
+              "ocean": 0.0619,
+              "sunset sky": 0.0254
+            },
+            "mean_iou": 0.1077,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2175,
+              "rocky cliff": 0.1829,
+              "ocean": 0.0821,
+              "sunset sky": 0.0338
+            },
+            "mean_iou": 0.1291,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "lighthouse": 0.2411,
+              "rocky cliff": 0.1263,
+              "ocean": 0.0241,
+              "sunset sky": 0.0
+            },
+            "mean_iou": 0.0979,
+            "seed": 6042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "cabin_snowy_forest",
+        "prompt_mean_iou": 0.1342,
+        "per_image": [
+          {
+            "per_token": {
+              "cabin": 0.4878,
+              "snowy forest": 0.0095,
+              "smoke": 0.0805,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1444,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5533,
+              "snowy forest": 0.0,
+              "smoke": 0.0053,
+              "chimney": 0.0002
+            },
+            "mean_iou": 0.1397,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cabin": 0.4716,
+              "snowy forest": 0.0337,
+              "smoke": 0.0219,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1318,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5312,
+              "snowy forest": 0.0426,
+              "smoke": 0.0782,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.163,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cabin": 0.4946,
+              "snowy forest": 0.0152,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1275,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cabin": 0.3475,
+              "snowy forest": 0.0498,
+              "smoke": 0.045,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1106,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cabin": 0.2243,
+              "snowy forest": 0.1123,
+              "smoke": 0.1459,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1206,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cabin": 0.5414,
+              "snowy forest": 0.0022,
+              "smoke": 0.0,
+              "chimney": 0.0
+            },
+            "mean_iou": 0.1359,
+            "seed": 1042
+          }
+        ]
+      },
+      {
+        "category": "scene",
+        "slug": "street_market",
+        "prompt_mean_iou": 0.2289,
+        "per_image": [
+          {
+            "per_token": {
+              "street market": 0.2888,
+              "fruit stands": 0.431,
+              "people": 0.0088
+            },
+            "mean_iou": 0.2429,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "street market": 0.2998,
+              "fruit stands": 0.3156,
+              "people": 0.2397
+            },
+            "mean_iou": 0.285,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "street market": 0.2646,
+              "fruit stands": 0.3431,
+              "people": 0.2053
+            },
+            "mean_iou": 0.271,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "street market": 0.2122,
+              "fruit stands": 0.2548,
+              "people": 0.3345
+            },
+            "mean_iou": 0.2672,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "street market": 0.2361,
+              "fruit stands": 0.2227,
+              "people": 0.1826
+            },
+            "mean_iou": 0.2138,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "street market": 0.2034,
+              "fruit stands": 0.2144,
+              "people": 0.0937
+            },
+            "mean_iou": 0.1705,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "street market": 0.2396,
+              "fruit stands": 0.401,
+              "people": 0.0545
+            },
+            "mean_iou": 0.2317,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "street market": 0.1992,
+              "fruit stands": 0.2171,
+              "people": 0.031
+            },
+            "mean_iou": 0.1491,
+            "seed": 2042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "three_red_apples",
+        "prompt_mean_iou": 0.4153,
+        "per_image": [
+          {
+            "per_token": {
+              "red apples": 0.5224,
+              "apples": 0.5533,
+              "white plate": 0.3546
+            },
+            "mean_iou": 0.4768,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "red apples": 0.4228,
+              "apples": 0.4007,
+              "white plate": 0.129
+            },
+            "mean_iou": 0.3175,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "red apples": 0.6501,
+              "apples": 0.6517,
+              "white plate": 0.0
+            },
+            "mean_iou": 0.4339,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "red apples": 0.3385,
+              "apples": 0.321,
+              "white plate": 0.0465
+            },
+            "mean_iou": 0.2353,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "red apples": 0.7346,
+              "apples": 0.7138,
+              "white plate": 0.0737
+            },
+            "mean_iou": 0.5074,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "red apples": 0.5921,
+              "apples": 0.5873,
+              "white plate": 0.2819
+            },
+            "mean_iou": 0.4871,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "red apples": 0.4993,
+              "apples": 0.4757,
+              "white plate": 0.2118
+            },
+            "mean_iou": 0.3956,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "red apples": 0.7193,
+              "apples": 0.6866,
+              "white plate": 0.0
+            },
+            "mean_iou": 0.4686,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "two_cats_bench",
+        "prompt_mean_iou": 0.2882,
+        "per_image": [
+          {
+            "per_token": {
+              "cats": 0.591,
+              "garden bench": 0.0902
+            },
+            "mean_iou": 0.3406,
+            "seed": 42
+          },
+          {
+            "per_token": {
+              "cats": 0.634,
+              "garden bench": 0.0
+            },
+            "mean_iou": 0.317,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "cats": 0.5761,
+              "garden bench": 0.2051
+            },
+            "mean_iou": 0.3906,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "cats": 0.4295,
+              "garden bench": 0.0045
+            },
+            "mean_iou": 0.217,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "cats": 0.48,
+              "garden bench": 0.0168
+            },
+            "mean_iou": 0.2484,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "cats": 0.4468,
+              "garden bench": 0.0
+            },
+            "mean_iou": 0.2234,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "cats": 0.3549,
+              "garden bench": 0.0009
+            },
+            "mean_iou": 0.1779,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "cats": 0.7537,
+              "garden bench": 0.0272
+            },
+            "mean_iou": 0.3905,
+            "seed": 4042
+          }
+        ]
+      },
+      {
+        "category": "counting",
+        "slug": "five_candles_cake",
+        "prompt_mean_iou": 0.245,
+        "per_image": [
+          {
+            "per_token": {
+              "candles": 0.1714,
+              "birthday cake": 0.3723,
+              "frosting": 0.3111
+            },
+            "mean_iou": 0.2849,
+            "seed": 7042
+          },
+          {
+            "per_token": {
+              "candles": 0.1283,
+              "birthday cake": 0.2904,
+              "frosting": 0.2543
+            },
+            "mean_iou": 0.2243,
+            "seed": 1042
+          },
+          {
+            "per_token": {
+              "candles": 0.4289,
+              "birthday cake": 0.061,
+              "frosting": 0.0759
+            },
+            "mean_iou": 0.1886,
+            "seed": 6042
+          },
+          {
+            "per_token": {
+              "candles": 0.1445,
+              "birthday cake": 0.3589,
+              "frosting": 0.3734
+            },
+            "mean_iou": 0.2923,
+            "seed": 2042
+          },
+          {
+            "per_token": {
+              "candles": 0.0043,
+              "birthday cake": 0.2452,
+              "frosting": 0.4217
+            },
+            "mean_iou": 0.2237,
+            "seed": 3042
+          },
+          {
+            "per_token": {
+              "candles": 0.0822,
+              "birthday cake": 0.3299,
+              "frosting": 0.34
+            },
+            "mean_iou": 0.2507,
+            "seed": 5042
+          },
+          {
+            "per_token": {
+              "candles": 0.534,
+              "birthday cake": 0.0,
+              "frosting": 0.0
+            },
+            "mean_iou": 0.178,
+            "seed": 4042
+          },
+          {
+            "per_token": {
+              "candles": 0.1879,
+              "birthday cake": 0.3984,
+              "frosting": 0.3662
+            },
+            "mean_iou": 0.3175,
+            "seed": 42
+          }
+        ]
+      }
+    ],
+    "overall_mean_iou": 0.2423
+  }
+}

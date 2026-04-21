@@ -1,0 +1,101 @@
+{
+  "prompt": "a cozy cabin in a snowy forest with smoke rising from the chimney",
+  "category": "scene",
+  "key_tokens": [
+    "cabin",
+    "forest",
+    "smoke",
+    "chimney"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "cabin": 0.345,
+        "forest": 0.0615,
+        "smoke": 0.3371,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1859,
+      "num_evaluated": 4,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "cabin": 0.5196,
+        "forest": 0.009,
+        "smoke": 0.0466,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1438,
+      "num_evaluated": 4,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "cabin": 0.5632,
+        "forest": 0.0023,
+        "smoke": 0.0031,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1421,
+      "num_evaluated": 4,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "cabin": 0.622,
+        "forest": 0.0223,
+        "smoke": 0.0674,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1779,
+      "num_evaluated": 4,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "cabin": 0.5898,
+        "forest": 0.008,
+        "smoke": 0.0,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1494,
+      "num_evaluated": 4,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "cabin": 0.4508,
+        "forest": 0.0179,
+        "smoke": 0.0959,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1411,
+      "num_evaluated": 4,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "cabin": 0.3014,
+        "forest": 0.0324,
+        "smoke": 0.1534,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1218,
+      "num_evaluated": 4,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "cabin": 0.5844,
+        "forest": 0.0107,
+        "smoke": 0.0126,
+        "chimney": 0.0
+      },
+      "mean_iou": 0.1519,
+      "num_evaluated": 4,
+      "seed": 1042
+    }
+  ],
+  "prompt_mean_iou": 0.1517
+}

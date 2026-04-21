@@ -1,193 +1,184 @@
-# Automated Visual Instruction Tuning Data Pipeline
+# Cross-Attention Grounding in Stable Diffusion
 
-A fully open-source pipeline to automatically generate high-quality VLM instruction tuning data — no API keys, no paid services.
+**Extract cross-attention maps from inside a diffusion model during generation to show which words caused which pixels — then use it to score, re-rank, and benchmark generated images.**
+
+## Results: Paper Comparison (Ablation Study)
+
+We benchmark three published attention aggregation methods against our combined approach across 120 images (15 prompts × 8 seeds), evaluated via IoU against CLIPSeg ground-truth masks.
+
+### Methods
+
+| ID | Paper | Key Technique | Source |
+|----|-------|---------------|--------|
+| P1 | **DAAM** (Tang et al., ACL 2023) | Bicubic upscale all resolutions → 64×64, clamp≥0, uniform mean | [castorini/daam](https://github.com/castorini/daam) |
+| P2 | **Prompt-to-Prompt** (Hertz et al., ICLR 2023) | Late-timestep filtering (last 50%), single res=16 | [google/prompt-to-prompt](https://github.com/google/prompt-to-prompt) |
+| P3 | **Attend-and-Excite** (Chefer et al., ICLR 2023) | 2D Gaussian smoothing (σ=0.5, k=3, reflect pad) | [yuval-alaluf/Attend-and-Excite](https://github.com/yuval-alaluf/Attend-and-Excite) |
+| **Ours** | Combined | DAAM multi-res + P2P late-step + A&E smoothing + compound phrase eval | — |
+
+### Overall Comparison
+
+| Method | Color Binding | Spatial | Multi-Object | Scene | Counting | **Overall IoU** | vs Ours |
+|--------|:------------:|:-------:|:------------:|:-----:|:--------:|:---------------:|:-------:|
+| P1: DAAM | 0.2493 | 0.2459 | 0.1609 | 0.1271 | 0.2121 | 0.1991 | +21.7% |
+| P2: P2P | 0.2944 | 0.2607 | 0.1731 | 0.1137 | 0.2133 | 0.2110 | +14.8% |
+| P3: A&E | 0.3078 | 0.2718 | 0.1857 | 0.1306 | 0.2248 | 0.2242 | +8.1% |
+| **Ours** | 0.2814 | 0.2619 | 0.1969 | 0.1553 | **0.3162** | **0.2423** | — |
+
+> **Ours achieves +8.1% over the best individual paper (A&E)**, with the largest gains in Counting (+40.6%) and Scene (+18.9%) categories.
+
+### Plots
+
+<p align="center">
+  <img src="assets/overall_comparison.png" width="600" alt="Overall IoU comparison">
+</p>
+
+<p align="center">
+  <img src="assets/paper_vs_ours.png" width="800" alt="Paper-by-paper comparison with Ours">
+</p>
+
+<p align="center">
+  <img src="assets/radar_chart.png" width="500" alt="Per-category radar chart">
+</p>
+
+<p align="center">
+  <img src="assets/category_breakdown.png" width="700" alt="IoU by category breakdown">
+</p>
+
+### Key Findings
+
+1. **Compound phrase evaluation is the biggest contributor** — Counting jumps from 0.2248 to 0.3162 because CLIPSeg segments "red apples" far better than "apples" alone.
+2. **A&E's Gaussian smoothing is the strongest single technique** — P3 beats both P1 and P2 across all categories.
+3. **Scene remains the hardest category** for all methods (0.10–0.15 IoU).
 
 ---
 
-## What it does
+## The Core Idea
 
-| Stage | Tool | Output |
-|-------|------|--------|
-| 1. Data collection | HuggingFace datasets + SDXL | `data/images/` + `raw_meta.jsonl` |
-| 2. Auto-annotation | Qwen2-VL-7B-Instruct | `annotated_meta.jsonl` |
-| 3. Instruction gen | Llama 3.1 8B (Ollama) | `instructions.jsonl` |
-| 4. Quality filter | CLIP + spaCy NER + dedup | `filtered.jsonl` |
-| 5. Dataset prep | LLaMA-Factory format | `vit_dataset.json` |
-| 6. Fine-tuning | LLaMA-Factory LoRA | `outputs/lora_vit/` |
-| 7. Evaluation | lmms-eval | `results/` |
+In Stable Diffusion's UNet, **cross-attention layers** compute attention between image patches (Q) and text tokens (K, V). The attention weight `A[i,j]` tells you how much image patch `i` attended to text token `j`. By aggregating across layers and timesteps, we get a spatial heatmap per token — a soft segmentation map with **zero annotation**.
 
----
+## Architecture
 
-## Requirements
+```
+                     Single-Prompt Mode                    Benchmark Mode
+                    ┌──────────────────┐               ┌──────────────────┐
+                    │generate_and_rank │               │ run_benchmark.py │
+                    │       .py        │               │                  │
+                    └───────┬──────────┘               └───────┬──────────┘
+                            │                                  │
+          ┌─────────────────┼──────────────────┐    ┌──────────┼───────────┐
+          │                 │                  │    │          │           │
+          v                 v                  v    v          v           v
+   ┌──────────────┐ ┌──────────────┐ ┌────────────────┐ ┌──────────┐ ┌────────┐
+   │  attention_  │ │  heatmap.py  │ │  alignment_    │ │ segment_ │ │analysis│
+   │ extractor.py │ │              │ │  scorer.py     │ │ eval.py  │ │  .py   │
+   │              │ │ Normalize,   │ │                │ │          │ │        │
+   │ Hook UNet    │ │ upscale,     │ │ CLIP + Attn    │ │ CLIPSeg  │ │ Plots, │
+   │ cross-attn   │ │ overlay      │ │ scoring        │ │ IoU      │ │ stats  │
+   └──────────────┘ └──────────────┘ └────────────────┘ └──────────┘ └────────┘
 
-- GPU with **≥12GB VRAM** (T4/A10/A100). Kaggle Free or Colab T4 both work.
-- Python 3.10+
-- ~50GB disk space (images + models)
+                    Ablation Mode
+                    ┌──────────────────┐
+                    │ run_ablation.py  │
+                    │                  │
+                    │  P1/P2/P3/Ours   │ ← attention_aggregator.py
+                    │  comparison      │
+                    └──────────────────┘
+```
 
----
+## Components
 
-## Setup (run once)
+| File | Role |
+|------|------|
+| `src/attention_extractor.py` | Hooks UNet cross-attention, stores per-layer per-timestep maps |
+| `src/attention_aggregator.py` | Paper-grounded aggregation (DAAM, P2P, A&E) + combined "Ours" |
+| `src/heatmap.py` | Normalize, upscale, overlay heatmaps on images |
+| `src/alignment_scorer.py` | CLIP + attention alignment scoring for re-ranking |
+| `src/segmentation_eval.py` | CLIPSeg IoU evaluation (ground-truth validation) |
+| `src/benchmark_prompts.py` | 15 prompts × 5 categories with compound token support |
+| `src/analysis.py` | Correlation plots, category breakdowns, best-of-N analysis |
+
+## Setup
 
 ```bash
-git clone <your-repo>
-cd vit_pipeline
-bash setup.sh
+pip install -r requirements.txt
 ```
 
-This installs all Python deps, downloads spaCy, installs Ollama, pulls Llama 3.1 8B, clones LLaMA-Factory and lmms-eval.
+> Requires CUDA GPU with 6–8GB VRAM.
 
----
+## Usage
 
-## Running the pipeline
-
-### Full pipeline (all stages)
+### Quick Demo (Single Prompt)
 ```bash
-python scripts/run_pipeline.py --config configs/pipeline_config.yaml
+python generate_and_rank.py \
+    --prompt "a red bicycle leaning against a brick wall near a flower pot" \
+    --n 4 --out results/bicycle/
 ```
 
-### Individual stages
+### Full Benchmark (15 prompts × 8 seeds = 120 images)
 ```bash
-# Stage 1 only (data collection, skip SDXL)
-python scripts/run_pipeline.py --stages 1 --skip-synthetic
-
-# Stages 2-4 (annotate + generate + filter)
-python scripts/run_pipeline.py --stages 2 3 4
-
-# Stage 5-6 (prepare dataset + evaluate)
-python scripts/run_pipeline.py --stages 5 6
+python run_benchmark.py --out benchmark_results/ --n 8
+python run_benchmark.py --out benchmark_results/ --skip-generation   # resume
+python run_benchmark.py --out benchmark_results/ --analysis-only     # plots only
 ```
 
-Pipeline is **resumable** — if it crashes or you interrupt, restart and it picks up where it left off using `.ckpt` files.
-
----
-
-## Fine-tuning
-
-After Stage 5, fine-tune with LLaMA-Factory:
-
+### Ablation Study (Paper Comparison)
 ```bash
-cd LLaMA-Factory
-llamafactory-cli train ../configs/train_lora.yaml
+python run_ablation.py --benchmark-dir benchmark_results/
+python run_ablation.py --benchmark-dir benchmark_results/ --analysis-only
 ```
 
-For Kaggle (30h/week free GPU), this takes ~8-12h for 50k samples on T4.
-
-Merge LoRA after training:
-```bash
-bash scripts/merge_lora.sh
-```
-
----
-
-## Evaluation
-
-```bash
-# Baseline (no fine-tuning)
-bash scripts/run_eval.sh llava-hf/llava-v1.6-mistral-7b-hf
-
-# Your fine-tuned model
-bash scripts/run_eval.sh outputs/lora_vit/merged
-```
-
-Benchmarks: **MMBench**, **POPE** (hallucination), **MME**, **SEEDBench**
-
----
-
-## Ablation study
-
-Your main research contribution — compare:
-1. Baseline LLaVA-1.6 zero-shot
-2. Fine-tuned on your pipeline data
-3. Fine-tuned on each instruction type separately (descriptive-only, reasoning-only, etc.)
-4. Synthetic vs real images only
-
-```python
-from src.evaluate import comparison_table
-comparison_table({
-    "Baseline":        {"MMBench": 68.1, "POPE_acc": 85.2},
-    "Ours (all types)":{"MMBench": 71.4, "POPE_acc": 87.8},
-    "Ours (reasoning)":{"MMBench": 70.1, "POPE_acc": 86.3},
-})
-```
-
----
-
-## Config reference
-
-All parameters in `configs/pipeline_config.yaml`:
-
-```yaml
-data:
-  coco_split: "train[:15000]"        # how many COCO images
-  num_synthetic_images: 2000         # SDXL generations
-
-annotation:
-  use_4bit: true                     # set false if ≥24GB VRAM
-
-instruction:
-  instructions_per_image: 3          # QA pairs per image
-  types: [descriptive, counting, reasoning, comparison, referential, yes_no, causal, ocr]
-
-filter:
-  min_clip_score: 0.20              # alignment threshold
-  dedup_threshold: 0.95             # similarity threshold
-
-training:
-  lora_rank: 64
-  num_epochs: 1
-  lr: 2.0e-4
-```
-
----
-
-## Free compute tips
-
-**Kaggle** (recommended for training):
-- 30h/week free T4/P100 GPU
-- Enable GPU: Settings → Accelerator → GPU T4×2
-- Run pipeline stages 1-4 on Colab, training on Kaggle
-
-**Google Colab** (free T4):
-- Good for stages 1-4 (data + annotation + filtering)
-- Runtime disconnects — pipeline auto-resumes from checkpoint
-
-**Save to Google Drive:**
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-# Then set paths.root = "/content/drive/MyDrive/vit_pipeline" in config
-```
-
----
-
-## Project structure
+## Output Structure
 
 ```
-vit_pipeline/
-├── README.md
-├── requirements.txt
-├── setup.sh
-├── configs/
-│   ├── pipeline_config.yaml      ← main config (edit this)
-│   └── train_lora.yaml           ← auto-generated by Stage 5
+benchmark_results/
+├── {category}/{slug}/
+│   ├── image_*.png, heatmap_*.png, BEST.png
+│   ├── token_maps_*.pt, raw_attn_*.pt
+│   ├── scores.json, iou_results.json
+├── analysis/
+│   ├── summary_table.csv
+│   ├── correlation_attn_vs_iou.png
+│   ├── correlation_clip_vs_combined.png
+│   ├── iou_by_category.png, token_iou_distribution.png
+│   └── best_of_n_analysis.png
+├── ablation/
+│   ├── ablation_results.json, comparison_table.csv
+│   ├── overall_comparison.png, paper_vs_ours.png
+│   ├── category_breakdown.png, radar_chart.png
+└── benchmark_report.json
+```
+
+## Benchmark Categories
+
+| Category | Focus | Example |
+|----------|-------|---------|
+| Color Binding | Color-object association | "a blue car next to a red fire hydrant" |
+| Spatial | Spatial relationships | "a cat sitting on a wooden table" |
+| Multi-Object | Multiple distinct objects | "a laptop, coffee mug, and books on a desk" |
+| Scene | Complex scenes | "a lighthouse on a rocky cliff at sunset" |
+| Counting | Object counting | "three red apples on a white plate" |
+
+## Project Structure
+
+```
+├── generate_and_rank.py        # Single-prompt demo
+├── run_benchmark.py            # Full benchmark orchestrator
+├── run_ablation.py             # Paper comparison ablation
 ├── src/
-│   ├── collect_data.py           ← Stage 1
-│   ├── annotate.py               ← Stage 2
-│   ├── generate_instructions.py  ← Stage 3
-│   ├── quality_filter.py         ← Stage 4
-│   ├── prepare_dataset.py        ← Stage 5
-│   ├── evaluate.py               ← Stage 6
-│   └── utils.py                  ← shared helpers
-├── scripts/
-│   ├── run_pipeline.py           ← master runner
-│   ├── run_eval.sh               ← lmms-eval helper
-│   └── merge_lora.sh             ← merge LoRA weights
-├── notebooks/
-│   └── analysis.ipynb            ← dataset visualisation
-└── data/                         ← created at runtime
-    ├── images/
-    ├── annotations/
-    ├── instructions/
-    ├── filtered/
-    └── final/
+│   ├── attention_extractor.py  # UNet cross-attention hooks
+│   ├── attention_aggregator.py # Paper-grounded aggregation strategies
+│   ├── heatmap.py              # Visualization utilities
+│   ├── alignment_scorer.py     # CLIP + attention scoring
+│   ├── segmentation_eval.py    # CLIPSeg IoU evaluation
+│   ├── benchmark_prompts.py    # Curated prompt suite
+│   └── analysis.py             # Aggregate stats & plots
+├── assets/                     # Result plots for README
+├── requirements.txt
+└── README.md
 ```
+
+## References
+
+- **DAAM** — Tang et al., *"What the DAAM: Interpreting Stable Diffusion Using Cross Attention"*, ACL 2023
+- **Prompt-to-Prompt** — Hertz et al., *"Prompt-to-Prompt Image Editing with Cross Attention Control"*, ICLR 2023
+- **Attend-and-Excite** — Chefer et al., *"Attend-and-Excite: Attention-Based Semantic Guidance"*, ICLR 2023

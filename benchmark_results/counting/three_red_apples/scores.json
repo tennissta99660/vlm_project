@@ -1,0 +1,147 @@
+{
+  "prompt": "three red apples arranged in a row on a white plate",
+  "category": "counting",
+  "key_tokens": [
+    "red",
+    "apples",
+    "plate"
+  ],
+  "results": [
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.352,
+        "attention_score": 0.2474,
+        "combined": 0.2997,
+        "per_token_attn": {
+          "red": 0.2259,
+          "apples": 0.2813,
+          "plate": 0.235
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_00_seed42.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/counting\\three_red_apples\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3304,
+        "attention_score": 0.2546,
+        "combined": 0.2925,
+        "per_token_attn": {
+          "red": 0.2354,
+          "apples": 0.2847,
+          "plate": 0.2437
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3303,
+        "attention_score": 0.2498,
+        "combined": 0.2901,
+        "per_token_attn": {
+          "red": 0.2369,
+          "apples": 0.2955,
+          "plate": 0.2168
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3239,
+        "attention_score": 0.2541,
+        "combined": 0.289,
+        "per_token_attn": {
+          "red": 0.2463,
+          "apples": 0.2974,
+          "plate": 0.2187
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3271,
+        "attention_score": 0.24,
+        "combined": 0.2836,
+        "per_token_attn": {
+          "red": 0.2217,
+          "apples": 0.2782,
+          "plate": 0.2201
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3081,
+        "attention_score": 0.2388,
+        "combined": 0.2734,
+        "per_token_attn": {
+          "red": 0.2192,
+          "apples": 0.2773,
+          "plate": 0.22
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/counting\\three_red_apples\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.2953,
+        "attention_score": 0.2348,
+        "combined": 0.265,
+        "per_token_attn": {
+          "red": 0.2157,
+          "apples": 0.2731,
+          "plate": 0.2154
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/counting\\three_red_apples\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/counting\\three_red_apples\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2851,
+        "attention_score": 0.2358,
+        "combined": 0.2605,
+        "per_token_attn": {
+          "red": 0.2193,
+          "apples": 0.284,
+          "plate": 0.2042
+        }
+      }
+    }
+  ]
+}

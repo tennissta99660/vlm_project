@@ -1,0 +1,102 @@
+{
+  "prompt": "a vase of sunflowers beside a bowl of fruit on a windowsill",
+  "category": "multi_object",
+  "key_tokens": [
+    "vase",
+    "sunflowers",
+    "bowl",
+    "fruit",
+    "windowsill"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "vase": 0.0992,
+        "sunflowers": 0.1199,
+        "bowl": 0.1332,
+        "fruit": 0.1765
+      },
+      "mean_iou": 0.1322,
+      "num_evaluated": 4,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "vase": 0.1668,
+        "sunflowers": 0.1057,
+        "bowl": 0.2665,
+        "fruit": 0.1239
+      },
+      "mean_iou": 0.1657,
+      "num_evaluated": 4,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "vase": 0.3074,
+        "sunflowers": 0.0927,
+        "bowl": 0.0,
+        "fruit": 0.1152
+      },
+      "mean_iou": 0.1288,
+      "num_evaluated": 4,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "vase": 0.1083,
+        "sunflowers": 0.1998,
+        "bowl": 0.0697,
+        "fruit": 0.1145
+      },
+      "mean_iou": 0.1231,
+      "num_evaluated": 4,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "vase": 0.2453,
+        "sunflowers": 0.0678,
+        "bowl": 0.0,
+        "fruit": 0.1097
+      },
+      "mean_iou": 0.1057,
+      "num_evaluated": 4,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "vase": 0.3034,
+        "sunflowers": 0.1801,
+        "bowl": 0.1581,
+        "fruit": 0.0
+      },
+      "mean_iou": 0.1604,
+      "num_evaluated": 4,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "vase": 0.1483,
+        "sunflowers": 0.2463,
+        "bowl": 0.2283,
+        "fruit": 0.0
+      },
+      "mean_iou": 0.1557,
+      "num_evaluated": 4,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "vase": 0.1375,
+        "sunflowers": 0.2448,
+        "bowl": 0.0,
+        "fruit": 0.1202
+      },
+      "mean_iou": 0.1256,
+      "num_evaluated": 4,
+      "seed": 4042
+    }
+  ],
+  "prompt_mean_iou": 0.1371
+}

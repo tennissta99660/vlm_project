@@ -1,0 +1,101 @@
+{
+  "prompt": "a lighthouse on a rocky cliff overlooking the ocean at sunset",
+  "category": "scene",
+  "key_tokens": [
+    "lighthouse",
+    "cliff",
+    "ocean",
+    "sunset"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "lighthouse": 0.1109,
+        "cliff": 0.3485,
+        "ocean": 0.0266,
+        "sunset": 0.0188
+      },
+      "mean_iou": 0.1262,
+      "num_evaluated": 4,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.0047,
+        "cliff": 0.3695,
+        "ocean": 0.0207,
+        "sunset": 0.0149
+      },
+      "mean_iou": 0.1024,
+      "num_evaluated": 4,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.0371,
+        "cliff": 0.2594,
+        "ocean": 0.0589,
+        "sunset": 0.0274
+      },
+      "mean_iou": 0.0957,
+      "num_evaluated": 4,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.0819,
+        "cliff": 0.1945,
+        "ocean": 0.0424,
+        "sunset": 0.012
+      },
+      "mean_iou": 0.0827,
+      "num_evaluated": 4,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.0787,
+        "cliff": 0.1746,
+        "ocean": 0.0113,
+        "sunset": 0.0107
+      },
+      "mean_iou": 0.0688,
+      "num_evaluated": 4,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.0909,
+        "cliff": 0.3242,
+        "ocean": 0.037,
+        "sunset": 0.0053
+      },
+      "mean_iou": 0.1143,
+      "num_evaluated": 4,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.2177,
+        "cliff": 0.0667,
+        "ocean": 0.079,
+        "sunset": 0.0027
+      },
+      "mean_iou": 0.0915,
+      "num_evaluated": 4,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "lighthouse": 0.2518,
+        "cliff": 0.0981,
+        "ocean": 0.0726,
+        "sunset": 0.0
+      },
+      "mean_iou": 0.1056,
+      "num_evaluated": 4,
+      "seed": 6042
+    }
+  ],
+  "prompt_mean_iou": 0.0984
+}

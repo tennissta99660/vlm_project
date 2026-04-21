@@ -1,0 +1,49 @@
+{
+  "prompt": "a red bicycle leaning against a brick wall near a flower pot",
+  "results": [
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "results/bicycle/image_01_seed1042.png",
+      "heatmap_path": "results/bicycle/heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3659,
+        "attention_score": 0.2355,
+        "combined": 0.3007
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "results/bicycle/image_00_seed42.png",
+      "heatmap_path": "results/bicycle/heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.356,
+        "attention_score": 0.2342,
+        "combined": 0.2951
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "results/bicycle/image_03_seed3042.png",
+      "heatmap_path": "results/bicycle/heatmap_03_seed3042.png",
+      "scores": {
+        "clip_score": 0.3406,
+        "attention_score": 0.2342,
+        "combined": 0.2874
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "results/bicycle/image_02_seed2042.png",
+      "heatmap_path": "results/bicycle/heatmap_02_seed2042.png",
+      "scores": {
+        "clip_score": 0.3136,
+        "attention_score": 0.2307,
+        "combined": 0.2721
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "prompt": "a dog standing under a large umbrella in the rain",
+  "category": "spatial",
+  "key_tokens": [
+    "dog",
+    "umbrella",
+    "rain"
+  ],
+  "results": [
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_00_seed42.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/spatial\\dog_under_umbrella\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3394,
+        "attention_score": 0.2713,
+        "combined": 0.3054,
+        "per_token_attn": {
+          "dog": 0.2555,
+          "umbrella": 0.2789,
+          "rain": 0.2795
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3402,
+        "attention_score": 0.2676,
+        "combined": 0.3039,
+        "per_token_attn": {
+          "dog": 0.2584,
+          "umbrella": 0.2781,
+          "rain": 0.2664
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.334,
+        "attention_score": 0.2604,
+        "combined": 0.2972,
+        "per_token_attn": {
+          "dog": 0.2551,
+          "umbrella": 0.2584,
+          "rain": 0.2677
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.331,
+        "attention_score": 0.2551,
+        "combined": 0.2931,
+        "per_token_attn": {
+          "dog": 0.2422,
+          "umbrella": 0.2602,
+          "rain": 0.2629
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3221,
+        "attention_score": 0.258,
+        "combined": 0.29,
+        "per_token_attn": {
+          "dog": 0.2495,
+          "umbrella": 0.2718,
+          "rain": 0.2526
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.318,
+        "attention_score": 0.2511,
+        "combined": 0.2846,
+        "per_token_attn": {
+          "dog": 0.2508,
+          "umbrella": 0.2502,
+          "rain": 0.2522
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.307,
+        "attention_score": 0.25,
+        "combined": 0.2785,
+        "per_token_attn": {
+          "dog": 0.2508,
+          "umbrella": 0.2419,
+          "rain": 0.2572
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/spatial\\dog_under_umbrella\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/spatial\\dog_under_umbrella\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/spatial\\dog_under_umbrella\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3086,
+        "attention_score": 0.2472,
+        "combined": 0.2779,
+        "per_token_attn": {
+          "dog": 0.2483,
+          "umbrella": 0.2426,
+          "rain": 0.2506
+        }
+      }
+    }
+  ]
+}

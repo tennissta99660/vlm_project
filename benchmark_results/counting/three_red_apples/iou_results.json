@@ -1,0 +1,92 @@
+{
+  "prompt": "three red apples arranged in a row on a white plate",
+  "category": "counting",
+  "key_tokens": [
+    "red",
+    "apples",
+    "plate"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.6192,
+        "plate": 0.3329
+      },
+      "mean_iou": 0.3174,
+      "num_evaluated": 3,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.2186,
+        "plate": 0.1323
+      },
+      "mean_iou": 0.117,
+      "num_evaluated": 3,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.6243,
+        "plate": 0.0
+      },
+      "mean_iou": 0.2081,
+      "num_evaluated": 3,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.285,
+        "plate": 0.0
+      },
+      "mean_iou": 0.095,
+      "num_evaluated": 3,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.6565,
+        "plate": 0.0253
+      },
+      "mean_iou": 0.2273,
+      "num_evaluated": 3,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.5253,
+        "plate": 0.2625
+      },
+      "mean_iou": 0.2626,
+      "num_evaluated": 3,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "red": 0.0439,
+        "apples": 0.3152,
+        "plate": 0.1975
+      },
+      "mean_iou": 0.1855,
+      "num_evaluated": 3,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "red": 0.0,
+        "apples": 0.4934,
+        "plate": 0.0
+      },
+      "mean_iou": 0.1645,
+      "num_evaluated": 3,
+      "seed": 4042
+    }
+  ],
+  "prompt_mean_iou": 0.1972
+}

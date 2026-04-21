@@ -1,0 +1,156 @@
+{
+  "prompt": "a street market with colorful fruit stands and people walking",
+  "category": "scene",
+  "key_tokens": [
+    "market",
+    "fruit",
+    "stands",
+    "people"
+  ],
+  "results": [
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/scene\\street_market\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/scene\\street_market\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3343,
+        "attention_score": 0.2288,
+        "combined": 0.2816,
+        "per_token_attn": {
+          "market": 0.2757,
+          "fruit": 0.2476,
+          "stands": 0.1926,
+          "people": 0.1993
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/scene\\street_market\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3361,
+        "attention_score": 0.2256,
+        "combined": 0.2808,
+        "per_token_attn": {
+          "market": 0.2731,
+          "fruit": 0.2409,
+          "stands": 0.1891,
+          "people": 0.1995
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/scene\\street_market\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.322,
+        "attention_score": 0.222,
+        "combined": 0.272,
+        "per_token_attn": {
+          "market": 0.2635,
+          "fruit": 0.2192,
+          "stands": 0.1957,
+          "people": 0.2098
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/scene\\street_market\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3217,
+        "attention_score": 0.2207,
+        "combined": 0.2712,
+        "per_token_attn": {
+          "market": 0.2709,
+          "fruit": 0.227,
+          "stands": 0.182,
+          "people": 0.2029
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/scene\\street_market\\image_00_seed42.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/scene\\street_market\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3205,
+        "attention_score": 0.2185,
+        "combined": 0.2695,
+        "per_token_attn": {
+          "market": 0.2667,
+          "fruit": 0.229,
+          "stands": 0.1864,
+          "people": 0.1919
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/scene\\street_market\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3226,
+        "attention_score": 0.2161,
+        "combined": 0.2693,
+        "per_token_attn": {
+          "market": 0.2568,
+          "fruit": 0.2273,
+          "stands": 0.1869,
+          "people": 0.1933
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/scene\\street_market\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3092,
+        "attention_score": 0.2127,
+        "combined": 0.261,
+        "per_token_attn": {
+          "market": 0.264,
+          "fruit": 0.2161,
+          "stands": 0.1808,
+          "people": 0.1898
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/scene\\street_market\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/scene\\street_market\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3006,
+        "attention_score": 0.2033,
+        "combined": 0.252,
+        "per_token_attn": {
+          "market": 0.2452,
+          "fruit": 0.1932,
+          "stands": 0.1892,
+          "people": 0.1857
+        }
+      }
+    }
+  ]
+}

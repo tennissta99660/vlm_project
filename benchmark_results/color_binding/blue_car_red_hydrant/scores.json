@@ -1,0 +1,148 @@
+{
+  "prompt": "a blue car parked next to a red fire hydrant",
+  "category": "color_binding",
+  "key_tokens": [
+    "blue",
+    "car",
+    "red",
+    "hydrant"
+  ],
+  "results": [
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3442,
+        "attention_score": 0.2389,
+        "combined": 0.2915,
+        "per_token_attn": {
+          "blue": 0.2383,
+          "car": 0.2523,
+          "red": 0.226
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3304,
+        "attention_score": 0.2151,
+        "combined": 0.2728,
+        "per_token_attn": {
+          "blue": 0.202,
+          "car": 0.2338,
+          "red": 0.2096
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_00_seed42.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.314,
+        "attention_score": 0.2268,
+        "combined": 0.2704,
+        "per_token_attn": {
+          "blue": 0.2205,
+          "car": 0.2459,
+          "red": 0.214
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.321,
+        "attention_score": 0.2164,
+        "combined": 0.2687,
+        "per_token_attn": {
+          "blue": 0.2316,
+          "car": 0.1998,
+          "red": 0.2178
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3292,
+        "attention_score": 0.2038,
+        "combined": 0.2665,
+        "per_token_attn": {
+          "blue": 0.2169,
+          "car": 0.2117,
+          "red": 0.1829
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.3123,
+        "attention_score": 0.1974,
+        "combined": 0.2548,
+        "per_token_attn": {
+          "blue": 0.174,
+          "car": 0.2135,
+          "red": 0.2048
+        }
+      }
+    },
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.289,
+        "attention_score": 0.2084,
+        "combined": 0.2487,
+        "per_token_attn": {
+          "blue": 0.2118,
+          "car": 0.2265,
+          "red": 0.1871
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/color_binding\\blue_car_red_hydrant\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2631,
+        "attention_score": 0.2037,
+        "combined": 0.2334,
+        "per_token_attn": {
+          "blue": 0.1995,
+          "car": 0.1814,
+          "red": 0.2302
+        }
+      }
+    }
+  ]
+}

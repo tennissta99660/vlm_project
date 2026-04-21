@@ -1,0 +1,101 @@
+{
+  "prompt": "a green parrot sitting on a yellow branch",
+  "category": "color_binding",
+  "key_tokens": [
+    "green",
+    "parrot",
+    "yellow",
+    "branch"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "green": 0.3282,
+        "parrot": 0.5552,
+        "yellow": 0.5452,
+        "branch": 0.0288
+      },
+      "mean_iou": 0.3643,
+      "num_evaluated": 4,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "green": 0.0057,
+        "parrot": 0.5097,
+        "yellow": 0.3961,
+        "branch": 0.1433
+      },
+      "mean_iou": 0.2637,
+      "num_evaluated": 4,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "green": 0.1656,
+        "parrot": 0.6442,
+        "yellow": 0.4527,
+        "branch": 0.0002
+      },
+      "mean_iou": 0.3157,
+      "num_evaluated": 4,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "green": 0.0,
+        "parrot": 0.5931,
+        "yellow": 0.4223,
+        "branch": 0.0989
+      },
+      "mean_iou": 0.2786,
+      "num_evaluated": 4,
+      "seed": 2042
+    },
+    {
+      "per_token": {
+        "green": 0.1787,
+        "parrot": 0.5478,
+        "yellow": 0.4958,
+        "branch": 0.0
+      },
+      "mean_iou": 0.3056,
+      "num_evaluated": 4,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "green": 0.0,
+        "parrot": 0.5187,
+        "yellow": 0.38,
+        "branch": 0.0902
+      },
+      "mean_iou": 0.2472,
+      "num_evaluated": 4,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "green": 0.0189,
+        "parrot": 0.642,
+        "yellow": 0.5919,
+        "branch": 0.0804
+      },
+      "mean_iou": 0.3333,
+      "num_evaluated": 4,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "green": 0.1552,
+        "parrot": 0.4571,
+        "yellow": 0.411,
+        "branch": 0.134
+      },
+      "mean_iou": 0.2893,
+      "num_evaluated": 4,
+      "seed": 3042
+    }
+  ],
+  "prompt_mean_iou": 0.2997
+}

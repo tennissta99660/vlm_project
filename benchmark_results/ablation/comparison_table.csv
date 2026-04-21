@@ -1,0 +1,5 @@
+Method,Color Binding,Spatial,Multi-Object,Scene,Counting,Overall,Delta vs Ours
+P1: DAAM (Tang et al.),0.2493,0.2459,0.1609,0.1271,0.2121,0.1991,+0.0432
+P2: Prompt-to-Prompt (Hertz et al.),0.2944,0.2607,0.1731,0.1137,0.2133,0.2110,+0.0313
+P3: Attend-and-Excite (Chefer et al.),0.3078,0.2718,0.1857,0.1306,0.2248,0.2242,+0.0181
+Ours (DAAM+P2P+A&E+Compound),0.2814,0.2619,0.1969,0.1553,0.3162,0.2423,-

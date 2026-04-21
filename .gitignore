@@ -1,38 +1,30 @@
-# Data (large — don't commit images to git)
-data/images/
-data/annotations/*.ckpt
-data/instructions/*.ckpt
-data/filtered/*.ckpt
+# Attention tensors (large binary files)
+*.pt
 
-# Model weights
-outputs/
-LLaMA-Factory/
-lmms-eval/
+# Seed-specific images (keep only BEST.png per prompt)
+image_*_seed*.png
+heatmap_*_seed*.png
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
 .venv/
 venv/
-*.egg-info/
 
-# Jupyter
-.ipynb_checkpoints/
-notebooks/.ipynb_checkpoints/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Ollama logs
-/tmp/ollama.log
-
-# Keep data dir structure but not content
-!data/.gitkeep
-!data/images/.gitkeep
-!data/annotations/.gitkeep
-!data/instructions/.gitkeep
-!data/filtered/.gitkeep
-!data/final/.gitkeep
-!results/.gitkeep

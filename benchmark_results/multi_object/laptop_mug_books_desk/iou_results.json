@@ -1,0 +1,110 @@
+{
+  "prompt": "a laptop, a coffee mug, and a stack of books on a desk",
+  "category": "multi_object",
+  "key_tokens": [
+    "laptop",
+    "coffee",
+    "mug",
+    "books",
+    "desk"
+  ],
+  "per_image": [
+    {
+      "per_token": {
+        "laptop": 0.3836,
+        "coffee": 0.2682,
+        "mug": 0.2629,
+        "books": 0.1421,
+        "desk": 0.0463
+      },
+      "mean_iou": 0.2206,
+      "num_evaluated": 5,
+      "seed": 7042
+    },
+    {
+      "per_token": {
+        "laptop": 0.0129,
+        "coffee": 0.2437,
+        "mug": 0.2277,
+        "books": 0.2337,
+        "desk": 0.0
+      },
+      "mean_iou": 0.1436,
+      "num_evaluated": 5,
+      "seed": 3042
+    },
+    {
+      "per_token": {
+        "laptop": 0.2777,
+        "coffee": 0.21,
+        "mug": 0.2091,
+        "books": 0.2268,
+        "desk": 0.0095
+      },
+      "mean_iou": 0.1866,
+      "num_evaluated": 5,
+      "seed": 42
+    },
+    {
+      "per_token": {
+        "laptop": 0.3334,
+        "coffee": 0.2416,
+        "mug": 0.2205,
+        "books": 0.0001,
+        "desk": 0.087
+      },
+      "mean_iou": 0.1765,
+      "num_evaluated": 5,
+      "seed": 5042
+    },
+    {
+      "per_token": {
+        "laptop": 0.0,
+        "coffee": 0.2967,
+        "mug": 0.3079,
+        "books": 0.1834,
+        "desk": 0.0
+      },
+      "mean_iou": 0.1576,
+      "num_evaluated": 5,
+      "seed": 6042
+    },
+    {
+      "per_token": {
+        "laptop": 0.0,
+        "coffee": 0.3651,
+        "mug": 0.3727,
+        "books": 0.3804,
+        "desk": 0.0
+      },
+      "mean_iou": 0.2236,
+      "num_evaluated": 5,
+      "seed": 4042
+    },
+    {
+      "per_token": {
+        "laptop": 0.1133,
+        "coffee": 0.157,
+        "mug": 0.1698,
+        "books": 0.2505,
+        "desk": 0.1542
+      },
+      "mean_iou": 0.169,
+      "num_evaluated": 5,
+      "seed": 1042
+    },
+    {
+      "per_token": {
+        "laptop": 0.099,
+        "coffee": 0.1597,
+        "mug": 0.1554,
+        "books": 0.3925,
+        "desk": 0.4254
+      },
+      "mean_iou": 0.2464,
+      "num_evaluated": 5,
+      "seed": 2042
+    }
+  ],
+  "prompt_mean_iou": 0.1905
+}

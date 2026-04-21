@@ -1,0 +1,165 @@
+{
+  "prompt": "a laptop, a coffee mug, and a stack of books on a desk",
+  "category": "multi_object",
+  "key_tokens": [
+    "laptop",
+    "coffee",
+    "mug",
+    "books",
+    "desk"
+  ],
+  "results": [
+    {
+      "index": 7,
+      "seed": 7042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_07_seed7042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_07_seed7042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.312,
+        "attention_score": 0.2351,
+        "combined": 0.2735,
+        "per_token_attn": {
+          "laptop": 0.233,
+          "coffee": 0.2265,
+          "mug": 0.2373,
+          "books": 0.2314,
+          "desk": 0.2473
+        }
+      }
+    },
+    {
+      "index": 3,
+      "seed": 3042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_03_seed3042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_03_seed3042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.3082,
+        "attention_score": 0.232,
+        "combined": 0.2701,
+        "per_token_attn": {
+          "laptop": 0.2063,
+          "coffee": 0.2467,
+          "mug": 0.245,
+          "books": 0.2375,
+          "desk": 0.2247
+        }
+      }
+    },
+    {
+      "index": 0,
+      "seed": 42,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_00_seed42.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_00_seed42.pt",
+      "heatmap_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\heatmap_00_seed42.png",
+      "scores": {
+        "clip_score": 0.3048,
+        "attention_score": 0.2321,
+        "combined": 0.2684,
+        "per_token_attn": {
+          "laptop": 0.2394,
+          "coffee": 0.2251,
+          "mug": 0.2241,
+          "books": 0.2249,
+          "desk": 0.2471
+        }
+      }
+    },
+    {
+      "index": 5,
+      "seed": 5042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_05_seed5042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_05_seed5042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2903,
+        "attention_score": 0.2366,
+        "combined": 0.2635,
+        "per_token_attn": {
+          "laptop": 0.2359,
+          "coffee": 0.2509,
+          "mug": 0.2327,
+          "books": 0.2156,
+          "desk": 0.2478
+        }
+      }
+    },
+    {
+      "index": 6,
+      "seed": 6042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_06_seed6042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_06_seed6042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2963,
+        "attention_score": 0.2251,
+        "combined": 0.2607,
+        "per_token_attn": {
+          "laptop": 0.1965,
+          "coffee": 0.2283,
+          "mug": 0.2363,
+          "books": 0.243,
+          "desk": 0.2215
+        }
+      }
+    },
+    {
+      "index": 4,
+      "seed": 4042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_04_seed4042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_04_seed4042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2768,
+        "attention_score": 0.2275,
+        "combined": 0.2522,
+        "per_token_attn": {
+          "laptop": 0.1993,
+          "coffee": 0.2479,
+          "mug": 0.2321,
+          "books": 0.2475,
+          "desk": 0.2106
+        }
+      }
+    },
+    {
+      "index": 1,
+      "seed": 1042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_01_seed1042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_01_seed1042.pt",
+      "heatmap_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\heatmap_01_seed1042.png",
+      "scores": {
+        "clip_score": 0.2666,
+        "attention_score": 0.2224,
+        "combined": 0.2445,
+        "per_token_attn": {
+          "laptop": 0.2133,
+          "coffee": 0.2267,
+          "mug": 0.2175,
+          "books": 0.2138,
+          "desk": 0.2408
+        }
+      }
+    },
+    {
+      "index": 2,
+      "seed": 2042,
+      "image_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\image_02_seed2042.png",
+      "maps_path": "benchmark_results/multi_object\\laptop_mug_books_desk\\token_maps_02_seed2042.pt",
+      "heatmap_path": null,
+      "scores": {
+        "clip_score": 0.2537,
+        "attention_score": 0.2151,
+        "combined": 0.2344,
+        "per_token_attn": {
+          "laptop": 0.2218,
+          "coffee": 0.202,
+          "mug": 0.2004,
+          "books": 0.2111,
+          "desk": 0.2403
+        }
+      }
+    }
+  ]
+}
